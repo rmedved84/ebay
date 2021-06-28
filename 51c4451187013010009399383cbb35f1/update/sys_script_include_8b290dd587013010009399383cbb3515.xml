@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_476139_ebay.EbayUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EbayUtil</name>
+        <script><![CDATA[var EbayUtil = (function(){	
+	
+	//var instance = gs.getProperty('instance_name') == 'rei2' ? 'prod' : 'dev';	
+	var baseURL = gs.getProperty('x_476139_ebay.base_endpoint');
+	var refreshToken = gs.getProperty('x_476139_ebay.refresh_token');
+	var accessToken = _getLocalAccessToken().getValue('token_received');
+	
+	function getListings(){
+		var body = '<?xml version="1.0" encoding="utf-8"?>' +
+			'<GetSellerListRequest xmlns="urn:ebay:apis:eBLBaseComponents">'+
+			'<RequesterCredentials>'+
+			'<eBayAuthToken>' + accessToken + '</eBayAuthToken>'+
+			'</RequesterCredentials>'+
+			'<StartTimeFrom>2021-05-01T00:00:00.000Z</StartTimeFrom>'+
+			'<StartTimeTo>2021-05-14T00:00:00.000Z</StartTimeTo>'+
+			'<DetailLevel>ReturnAll</DetailLevel>'+
+			'<Pagination>'+
+			'<EntriesPerPage>200</EntriesPerPage>'+
+			'<PageNumber>1</PageNumber>'+
+			'</Pagination>'+
+			'</GetSellerListRequest>';
+		var headers = {
+			"X-EBAY-API-CALL-NAME": "GetSellerList",
+			"X-EBAY-API-COMPATIBILITY-LEVEL": 1149,
+			"X-EBAY-API-SITEID": 0,
+			"Content-Type": "text/xml"
+		}
+		var answer = EbayUtil._callEbay('ws/api.dll/getSellerList', 'POST', body, false, headers);
+		answer = gs.xmlToJSON(answer);
+		return answer;
+	}
+	
+	/**SNDOC
+	@name getLocalAccessToken
+	@description Get the Saviynt oauth_credential record
+	@parm {String} [refreshToken] - Refresh token to use
+	@returns {GlideRecord} the Saviynt oauth_credential record
+	*/
+	function _getLocalAccessToken(){
+		var now = new GlideDateTime();
+		var oauthGR = new GlideRecord('oauth_credential');
+		oauthGR.addQuery('scopes', 'Ebay');
+		oauthGR.addQuery('expires', '>', now);
+		oauthGR.query();
+		if(!oauthGR.next()){
+			_deleteExpiredTokens();
+			var newToken = _getAccessToken();
+			return _createNewLocalToken(newToken);
+		}else{
+			return oauthGR;
+		}
+	}
+	
+	/**SNDOC
+	@name deleteExpiredTokens
+	@description Delete any tokens with the Scope Saviynt
+	*/
+	
+	function _deleteExpiredTokens(){
+		var oauthGR = new GlideRecord('oauth_credential');
+		oauthGR.addQuery('scopes', 'Ebay');
+		oauthGR.deleteMultiple();
+	}
+	
+	
+	/**SNDOC
+	@name createNewLocalToken
+	@description Create a new oauth_credential record with the provided token 
+	@parm {String} [token] - token to use
+	@returns {GlideRecord} the Saviynt oauth_credential record
+	*/
+	function _createNewLocalToken(token){
+		var expiresAt = new GlideDateTime();
+		expiresAt.addSeconds(1800);
+		var oauthGR = new GlideRecord('oauth_credential');
+		oauthGR.initialize();
+		oauthGR.setValue('scopes', 'Ebay');
+		oauthGR.setValue('token_received', token);
+		oauthGR.setValue('expires', expiresAt);
+		oauthGR.insert();
+		return oauthGR;
+	}
+	
+	/**SNDOC
+	@name getAccessToken
+	@description Get access token from Saviynt using a refresh token
+	@parm {String} [refreshToken] - Refresh token to use
+	@returns {String} Access token
+	*/
+	
+	function _getAccessToken(){
+		var endpoint = baseURL + 'identity/v1/oauth2/token';
+		var requestBody = "grant_type=refresh_token&refresh_token=" + refreshToken;
+		var request = new sn_ws.RESTMessageV2();
+		request.setEndpoint(endpoint);
+		request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		request.setRequestHeader('Authorization', 'Basic SmVuTWVkdmUtVnVsdHVyZS1QUkQtZjU1MTU0NjA4LThjZjQzM2M2OlBSRC01NTE1NDYwOGI3ZjAtOWMzOS00MzQ5LWI4MzItNGIyMw==');
+		request.setRequestBody(requestBody);
+		request.setHttpMethod('POST');
+		var response = request.execute();
+		var status = response.getStatusCode();
+		var error = response.getErrorMessage();
+		var responseBody = JSON.parse(response.getBody());
+		return responseBody.access_token || null;
+    }
+	
+	/**SNDOC
+	@name _callEbay
+	@description Makes a REST call to Saviynt and returns response
+	@param {String} [endpoint] - endpoint to call
+	@param {String} [method] - HTTP method to use
+	@param {Object} [body] - JSON request body to send
+	@returns {String} Access token
+	*/
+	function _callEbay(endpoint, method, body, stringify, headers){
+		var request = new sn_ws.RESTMessageV2();
+		request.setEndpoint(baseURL + endpoint);
+		request.setHttpMethod(method);
+		if(body){
+			if(stringify){
+				body = JSON.stringify(body);
+			}
+			request.setRequestBody(body);
+		}
+		request.setRequestHeader('Authorization', 'Bearer ' + accessToken);
+		if(headers){
+			for(var header in headers){
+				request.setRequestHeader(header, headers[header]);
+			}
+		}
+		var response = request.execute();
+		var statusCode = response.getStatusCode();
+		var error = response.getErrorMessage();
+		var responseBody = response.getBody();
+		return response.getBody();
+	}
+    	
+	/***** Return public methods here *****/
+	return{
+		'_callEbay': _callEbay,
+		'getListings': getListings
+	};
+	
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 19:10:07</sys_created_on>
+        <sys_id>8b290dd587013010009399383cbb3515</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>EbayUtil</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_script_include_8b290dd587013010009399383cbb3515</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 22:29:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

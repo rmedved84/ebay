@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Sale Details" section_id="4fbdf55d87813010009399383cbb355b" sys_domain="global" table="x_476139_ebay_item" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sale_date</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
+            <sys_id>84dd751d87813010009399383cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>selling_price</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
+            <sys_id>08dd751d87813010009399383cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipping</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
+            <sys_id>88dd751d87813010009399383cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fees</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
+            <sys_id>0cdd751d87813010009399383cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Sale Details</caption>
+            <header>false</header>
+            <name>x_476139_ebay_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 22:56:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fbdf55d87813010009399383cbb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_476139_ebay_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+            <sys_update_name>sys_ui_section_4fbdf55d87813010009399383cbb355b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 22:56:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

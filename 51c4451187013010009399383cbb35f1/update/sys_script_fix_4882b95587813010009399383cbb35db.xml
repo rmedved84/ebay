@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>GetAllEbayListings</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var body = '<?xml version="1.0" encoding="utf-8"?>' +
+'<GetSellerListRequest xmlns="urn:ebay:apis:eBLBaseComponents">'+
+	'<RequesterCredentials>'+
+  '<eBayAuthToken>	v^1.1#i^1#f^0#I^3#r^0#p^3#t^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</eBayAuthToken>'+
+'</RequesterCredentials>'+
+    '<StartTimeFrom>2021-05-01T00:00:00.000Z</StartTimeFrom>'+
+    '<StartTimeTo>2021-05-14T00:00:00.000Z</StartTimeTo>'+
+  '<DetailLevel>ReturnAll</DetailLevel>'+
+  '<Pagination>'+
+    '<EntriesPerPage>200</EntriesPerPage>'+
+    '<PageNumber>1</PageNumber>'+
+  '</Pagination>'+
+'</GetSellerListRequest>';
+
+var headers = {
+  "X-EBAY-API-CALL-NAME": "GetSellerList",
+  "X-EBAY-API-COMPATIBILITY-LEVEL": 1149,
+  "X-EBAY-API-SITEID": 0,
+  "Content-Type": "text/xml"
+}
+
+EbayUtil._callEbay('ws/api.dll/getSellerList', 'POST', null, headers);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 22:07:31</sys_created_on>
+        <sys_id>4882b95587813010009399383cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetAllEbayListings</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_script_fix_4882b95587813010009399383cbb35db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 22:07:31</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
