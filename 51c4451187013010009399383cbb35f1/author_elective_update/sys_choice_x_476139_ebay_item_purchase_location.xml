@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="purchase_location" table="x_476139_ebay_item" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>purchase_location</element>
+            <name>x_476139_ebay_item</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 23:09:33</sys_created_on>
+            <sys_id>b2b0069d87813010009399383cbb353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>purchase_location</sys_name>
+            <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+            <sys_update_name>sys_choice_x_476139_ebay_item_purchase_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 23:09:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purchase_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Garage Sale</label>
+            <language>en</language>
+            <name>x_476139_ebay_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 23:09:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8c0029d87813010009399383cbb35c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 23:09:44</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purchase_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goodwill</label>
+            <language>en</language>
+            <name>x_476139_ebay_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 23:09:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9b04a5d87813010009399383cbb358d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 23:09:33</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purchase_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Value Village</label>
+            <language>en</language>
+            <name>x_476139_ebay_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-28 23:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2b04add87813010009399383cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 23:09:39</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
+</record_update>
