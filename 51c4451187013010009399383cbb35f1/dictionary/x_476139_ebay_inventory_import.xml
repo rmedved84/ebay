@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Inventory Import" max_length="40" name="x_476139_ebay_inventory_import" type="collection">
+        <element attributes="import_attribute_name=Fees" label="Fees" max_length="15" name="u_fees" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Item Name" label="Item Name" max_length="60" name="u_item_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Notes" label="Notes" max_length="40" name="u_notes" type="string"/>
+        <element label="Purchase Date" max_length="40" name="u_purchase_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Purchase Price" label="Purchase Price" max_length="40" name="u_purchase_price" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sales month" label="Sales month" max_length="40" name="u_sales_month" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sale Date" label="Sale Date" max_length="40" name="u_sale_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Selling Price" label="Selling Price" max_length="15" name="u_selling_price" type="decimal"/>
+        <element attributes="import_attribute_name=Shipping" label="Shipping" max_length="15" name="u_shipping" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SKU" label="SKU" max_length="40" name="u_sku" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=*Cost of Goods Sold" label="*Cost of Goods Sold" max_length="40" name="u__cost_of_goods_sold" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=*PROFIT" label="*PROFIT" max_length="40" name="u__profit" type="string"/>
+    </element>
+</database>
