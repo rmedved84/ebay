@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Sync New Orders</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="Rob Medved">81c8566d878d3010009399383cbb3506</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-06-29 22:44:24</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var today = new GlideDate();
+var endDate = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-1);
+var startDate = today.getDisplayValue() + 'T00:00:00.000Z';
+var params = {
+ 'filter': 'creationdate:%5B' + startDate + '..' + endDate + '%5D' 
+};
+var orders = EbayUtil.getOrders(params);
+for(var i = 0; i < orders.length; i++){
+	var lineItem = orers[i].lineItems[0];
+	if(lineItem.sku){
+		var itemGR = new GlideRecord('x_476139_ebay_item');
+		itemGR.addEncodedQuery('number=' + lineItem.sku + '^ORinventory_number=' + lineItem.sku);
+		itemGR.query();
+		if(itemGR.next()){
+			itemGR.setValue('selling_price', lineItem.lineItemCost.value);
+			itemGR.setValue('fees', orders[i].totalMarketplaceFee);
+			itemGR.setValue('shipping', lineItem.deliverCost.shippingCost.value);
+			itemGR.setValue('name', lineItem.title);
+			itemGR.update();
+		}
+	}else{
+		createTask();
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-06-29 22:44:33</sys_created_on>
+        <sys_id>dc9487a187417010009399383cbb35a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sync New Orders</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sysauto_script_dc9487a187417010009399383cbb35a3</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-06-29 23:24:11</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
