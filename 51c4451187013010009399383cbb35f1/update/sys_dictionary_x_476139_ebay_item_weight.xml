@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_476139_ebay_item">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="weight" table="x_476139_ebay_item">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Weight</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>weight</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>100</max_length>
         <name>x_476139_ebay_item</name>
         <next_element/>
         <primary>false</primary>
@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>932</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-28 18:51:34</sys_created_on>
-        <sys_id>b7a5091587013010009399383cbb35d2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>x_476139_ebay_item</sys_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-13 15:35:32</sys_created_on>
+        <sys_id>f198a942879d3010009399383cbb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Weight</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name>sys_dictionary_x_476139_ebay_item_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-07-13 10:28:51</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_476139_ebay_item_weight</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-13 15:35:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

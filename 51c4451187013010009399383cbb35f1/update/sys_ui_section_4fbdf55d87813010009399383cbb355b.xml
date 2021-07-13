@@ -3,56 +3,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sale_date</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
-            <sys_id>84dd751d87813010009399383cbb3533</sys_id>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-13 15:32:47</sys_created_on>
+            <sys_id>52082142879d3010009399383cbb3576</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 15:32:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>selling_price</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
-            <sys_id>08dd751d87813010009399383cbb3533</sys_id>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-13 15:32:47</sys_created_on>
+            <sys_id>d2082142879d3010009399383cbb3576</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 15:32:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>shipping</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
-            <sys_id>88dd751d87813010009399383cbb3533</sys_id>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-13 15:32:47</sys_created_on>
+            <sys_id>d2086942879d3010009399383cbb351c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 15:32:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fees</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-28 22:56:48</sys_created_on>
-            <sys_id>0cdd751d87813010009399383cbb3533</sys_id>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-13 15:32:47</sys_created_on>
+            <sys_id>56086942879d3010009399383cbb351c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:56:48</sys_updated_on>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 15:32:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>profit</element>
+            <position>4</position>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-13 15:32:47</sys_created_on>
+            <sys_id>d6086942879d3010009399383cbb351c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 15:32:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item" max_length="40" name="x_476139_ebay_item" sizeclass="0" type="collection">
+    <element label="Item" max_length="40" name="x_476139_ebay_item" sizeclass="932" type="collection">
         <element label="Bin Number" max_length="40" name="bin_number" type="string"/>
+        <element label="Details" max_length="1000" name="details" type="string"/>
         <element label="Fees" max_length="20" name="fees" type="currency"/>
         <element label="Inventory Number" max_length="40" name="inventory_number" type="string"/>
         <element label="Legacy Listing ID" max_length="100" name="legacy_listing_id" type="string"/>
+        <element label="Measurement Details" max_length="4000" name="measurement_details" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var sellingPrice = current.selling_price;&#13;&#10;&#9;var shipping = current.shipping;&#13;&#10;&#9;var fees = current.fees;&#13;&#10;&#9;var purchasePrice = current.purchase_price;&#13;&#10;&#9;var profit = sellingPrice - shipping - fees - purchasePrice;&#13;&#10;&#9;return profit;  &#13;&#10;&#13;&#10;})(current);" label="Profit" max_length="20" name="profit" type="currency"/>
         <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
         <element choice="1" label="Purchase Location" max_length="40" name="purchase_location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Garage Sale"/>
-                <element inactive_on_update="false" label="Goodwill"/>
-                <element inactive_on_update="false" label="Value Village"/>
+                <element inactive_on_update="false" label="Garage Sale" value="Garage Sale"/>
+                <element inactive_on_update="false" label="Goodwill" value="Goodwill"/>
+                <element inactive_on_update="false" label="Value Village" value="Value Village"/>
             </choice>
         </element>
         <element label="Purchase Price" max_length="20" name="purchase_price" type="currency"/>
         <element label="Sale Date" max_length="40" name="sale_date" type="glide_date"/>
         <element label="Selling Price" max_length="20" name="selling_price" type="currency"/>
         <element label="Shipping" max_length="20" name="shipping" type="currency"/>
+        <element choice="1" label="Shipping Method" max_length="40" name="shipping_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="USPS First Class Mail" value="USPS First Class Mail"/>
+                <element inactive_on_update="false" label="USPS Priority Mail" value="USPS Priority Mail"/>
+            </choice>
+        </element>
         <element choice="1" label="Storage Location" max_length="40" name="storage_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bedroom Closet" value="bedroom_closet"/>
@@ -27,5 +35,6 @@
                 <element inactive_on_update="false" label="Nursery Closet" value="nursery_closet"/>
             </choice>
         </element>
+        <element label="Weight" max_length="100" name="weight" type="string"/>
     </element>
 </database>
