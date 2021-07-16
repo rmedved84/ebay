@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item" max_length="40" name="x_476139_ebay_item" sizeclass="932" type="collection">
+    <element label="Item" max_length="40" name="x_476139_ebay_item" sizeclass="933" type="collection">
+        <element label="Batch" max_length="32" name="batch" reference="x_476139_ebay_batch" type="reference"/>
         <element label="Bin Number" max_length="40" name="bin_number" type="string"/>
-        <element label="Details" max_length="1000" name="details" type="string"/>
+        <element choice="1" label="Box Dimensions" max_length="100" name="box_dimensions" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="12x12x12" value="12x12x12"/>
+                <element inactive_on_update="false" label="12x12x8" value="12x12x8"/>
+                <element inactive_on_update="false" label="12x9x2" value="12x9x2"/>
+                <element inactive_on_update="false" label="15x8x6" value="15x8x6"/>
+                <element inactive_on_update="false" label="15x8x6" value="15x8x6"/>
+                <element inactive_on_update="false" label="6x6x6" value="6x6x6"/>
+                <element inactive_on_update="false" label="8x6x4" value="8x6x4"/>
+                <element inactive_on_update="false" label="8x8x8" value="8x8x8"/>
+                <element inactive_on_update="false" label="Custom" value="Custom"/>
+            </choice>
+        </element>
+        <element label="Custom Box Dimension" max_length="100" name="custom_box_dimension" type="string"/>
+        <element label="Item Condition" max_length="1000" name="details" type="string"/>
         <element label="Fees" max_length="20" name="fees" type="currency"/>
         <element label="Inventory Number" max_length="40" name="inventory_number" type="string"/>
         <element label="Legacy Listing ID" max_length="100" name="legacy_listing_id" type="string"/>
         <element label="Measurement Details" max_length="4000" name="measurement_details" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Custom SKU" max_length="40" name="number" type="string"/>
+        <element label="Ounces" max_length="40" name="ounces" type="string"/>
+        <element label="Pounds" max_length="40" name="pounds" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var sellingPrice = current.selling_price;&#13;&#10;&#9;var shipping = current.shipping;&#13;&#10;&#9;var fees = current.fees;&#13;&#10;&#9;var purchasePrice = current.purchase_price;&#13;&#10;&#9;var profit = sellingPrice - shipping - fees - purchasePrice;&#13;&#10;&#9;return profit;  &#13;&#10;&#13;&#10;})(current);" label="Profit" max_length="20" name="profit" type="currency"/>
         <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
         <element choice="1" label="Purchase Location" max_length="40" name="purchase_location" type="choice">
@@ -23,8 +40,14 @@
         <element label="Shipping" max_length="20" name="shipping" type="currency"/>
         <element choice="1" label="Shipping Method" max_length="40" name="shipping_method" type="choice">
             <choice>
-                <element inactive_on_update="false" label="USPS First Class Mail" value="USPS First Class Mail"/>
-                <element inactive_on_update="false" label="USPS Priority Mail" value="USPS Priority Mail"/>
+                <element inactive_on_update="false" label="FedEx Home Delivery" sequence="10" value="FedEx Home Delivery"/>
+                <element inactive_on_update="false" label="FedEx Smart Post" sequence="20" value="FedEx Smart Post"/>
+                <element inactive_on_update="false" label="UPS Ground" sequence="30" value="UPS Ground"/>
+                <element inactive_on_update="false" label="USPS First Class Mail" sequence="40" value="USPS First Class Mail"/>
+                <element inactive_on_update="false" label="USPS Flat Rate Medium Box" sequence="50" value="USPS Flat Rate Medium Box"/>
+                <element inactive_on_update="false" label="USPS Padded Flat Rate Envelope" sequence="60" value="USPS Padded Flat Rate Envelope"/>
+                <element inactive_on_update="false" label="USPS Parcel Select" sequence="70" value="USPS Parcel Select"/>
+                <element inactive_on_update="false" label="USPS Priority Mail" sequence="80" value="USPS Priority Mail"/>
             </choice>
         </element>
         <element choice="1" label="Storage Location" max_length="40" name="storage_location" type="choice">
@@ -36,5 +59,8 @@
             </choice>
         </element>
         <element label="Weight" max_length="100" name="weight" type="string"/>
+        <index name="index">
+            <element name="batch"/>
+        </index>
     </element>
 </database>

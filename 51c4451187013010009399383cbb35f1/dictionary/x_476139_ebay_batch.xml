@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batch" max_length="40" name="x_476139_ebay_batch" sizeclass="1" type="collection">
+        <element label="Folder" max_length="32" name="folder" reference="x_476139_dropbox_folder" type="reference"/>
+        <element default="javascript: new GlideDate().getDisplayValue()" label="Name" max_length="100" name="name" type="string"/>
+        <index name="index">
+            <element name="folder"/>
+        </index>
+    </element>
+</database>
