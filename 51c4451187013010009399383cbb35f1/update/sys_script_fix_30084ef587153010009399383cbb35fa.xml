@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Get Missing Orders</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var today = new GlideDate();
+var endDate = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-1);
+var startDate = '2021-05-11' + 'T00:00:00.000Z';
+var params = {
+ 'filter': 'creationdate:%5B' + startDate + '..' + endDate + '%5D' 
+};
+var orders = EbayUtil.getOrders(params);
+orders = orders.orders;
+for(var i = 0; i < 1; i++){
+  var lineItem = orders[i].lineItems[0];
+  var orderGR = new GlideRecord('x_476139_ebay_item');
+  orderGR.initialize();
+  orderGR.setValue('name', lineItem.title);
+  orderGR.setValue('legacy_listing_id', lineItem.legacyItemId);
+  orderGR.setValue('sale_date', orders[i].creationDate.split(':')[0]);
+  orderGR.setValue('selling_price', lineItem.lineItemCost.value);
+  orderGR.setValue('shipping', lineItem.deliveryCost.shippingCost.value);
+  orderGR.setValue('fees', orders[0].totalMarketplaceFee.value);
+  orderGR.insert();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-12 23:14:18</sys_created_on>
+        <sys_id>30084ef587153010009399383cbb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Missing Orders</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_script_fix_30084ef587153010009399383cbb35fa</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-12 23:14:18</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

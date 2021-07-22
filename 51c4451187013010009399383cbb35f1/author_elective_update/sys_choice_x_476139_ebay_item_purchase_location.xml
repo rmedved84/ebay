@@ -31,10 +31,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d8c0029d87813010009399383cbb35c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 23:09:44</sys_updated_on>
-            <value/>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 02:49:16</sys_updated_on>
+            <value>Garage Sale</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -51,10 +51,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d9b04a5d87813010009399383cbb358d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 23:09:33</sys_updated_on>
-            <value/>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 02:49:21</sys_updated_on>
+            <value>Goodwill</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -71,10 +71,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b2b04add87813010009399383cbb3585</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 23:09:39</sys_updated_on>
-            <value/>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-13 02:49:26</sys_updated_on>
+            <value>Value Village</value>
         </sys_choice>
     </sys_choice>
 </record_update>

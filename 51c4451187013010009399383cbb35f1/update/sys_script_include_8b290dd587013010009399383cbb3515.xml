@@ -14,14 +14,29 @@
 	var refreshToken = gs.getProperty('x_476139_ebay.refresh_token');
 	var accessToken = _getLocalAccessToken().getValue('token_received');
 	
-	function getListings(){
+	function getOrders(params){
+		var endpoint = 'sell/fulfillment/v1/order';
+		if(params){
+			endpoint += '?';
+			for(var param in params){
+				endpoint += param + '=' + params[param] + '&';
+			}
+		}
+		var responseBody = _callEbay(endpoint, 'GET');
+		responseBody = JSON.parse(responseBody);
+		return responseBody;
+	}
+	
+	function getListings(startTime, endTime){
+		//2021-05-01T00:00:00.000Z
+		//2021-05-14T00:00:00.000Z
 		var body = '<?xml version="1.0" encoding="utf-8"?>' +
 			'<GetSellerListRequest xmlns="urn:ebay:apis:eBLBaseComponents">'+
 			'<RequesterCredentials>'+
 			'<eBayAuthToken>' + accessToken + '</eBayAuthToken>'+
 			'</RequesterCredentials>'+
-			'<StartTimeFrom>2021-05-01T00:00:00.000Z</StartTimeFrom>'+
-			'<StartTimeTo>2021-05-14T00:00:00.000Z</StartTimeTo>'+
+			'<StartTimeFrom>' + startTime + '</StartTimeFrom>'+
+			'<StartTimeTo>' + endTime + '</StartTimeTo>'+
 			'<DetailLevel>ReturnAll</DetailLevel>'+
 			'<Pagination>'+
 			'<EntriesPerPage>200</EntriesPerPage>'+
@@ -147,7 +162,8 @@
 	/***** Return public methods here *****/
 	return{
 		'_callEbay': _callEbay,
-		'getListings': getListings
+		'getListings': getListings,
+		'getOrders': getOrders
 	};
 	
 })();]]></script>
@@ -155,13 +171,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 19:10:07</sys_created_on>
         <sys_id>8b290dd587013010009399383cbb3515</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>EbayUtil</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_script_include_8b290dd587013010009399383cbb3515</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-28 22:29:21</sys_updated_on>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-06-29 23:03:58</sys_updated_on>
     </sys_script_include>
 </record_update>

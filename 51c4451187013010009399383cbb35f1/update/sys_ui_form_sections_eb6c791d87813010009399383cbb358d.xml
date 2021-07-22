@@ -30,17 +30,31 @@
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2021-07-16 02:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>086216fa87557010009399383cbb35cf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476139_ebay_item" name="x_476139_ebay_item" sys_domain="global" view="Default view">eb6c791d87813010009399383cbb358d</sys_ui_form>
+            <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-06-28 22:56:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>03bdf55d87813010009399383cbb355e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_476139_ebay_item" name="x_476139_ebay_item" sys_domain="global" view="Default view">eb6c791d87813010009399383cbb358d</sys_ui_form>
             <sys_ui_section caption="Sale Details" display_value="Sale Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">4fbdf55d87813010009399383cbb355b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:56:27</sys_updated_on>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_476139_ebay_item</name>
