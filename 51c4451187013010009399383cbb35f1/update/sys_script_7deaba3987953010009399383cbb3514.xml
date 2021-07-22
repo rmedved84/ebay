@@ -33,8 +33,8 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	var taxRate = current.purchase_location == 'Value Village' ? .101 : .087;
-	var taxTotal = parseInt(current.getValue('purchase_price')) * taxRate;
-	var total = taxTotal + parseInt(current.getValue('purchase_price'));
+	var taxTotal = parseFloat(current.getValue('purchase_price')) * taxRate;
+	var total = taxTotal + parseFloat(current.getValue('purchase_price'));
 	total = total.toFixed(2);
 	current.setValue('purchase_price', total);
 
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7deaba3987953010009399383cbb3514</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Add Sales Tax</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_script_7deaba3987953010009399383cbb3514</sys_update_name>
         <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-07-13 03:03:32</sys_updated_on>
+        <sys_updated_on>2021-07-18 15:50:28</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
