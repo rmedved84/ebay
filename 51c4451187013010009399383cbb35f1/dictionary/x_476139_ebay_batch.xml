@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Batch" max_length="40" name="x_476139_ebay_batch" sizeclass="1" type="collection">
+    <element label="Batch" max_length="40" name="x_476139_ebay_batch" sizeclass="2" type="collection">
         <element label="Folder" max_length="32" name="folder" reference="x_476139_dropbox_folder" type="reference"/>
         <element default="javascript: new GlideDate().getDisplayValue()" label="Name" max_length="100" name="name" type="string"/>
+        <element choice="1" default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="Full" value="full"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Sent" value="sent"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="folder"/>
         </index>

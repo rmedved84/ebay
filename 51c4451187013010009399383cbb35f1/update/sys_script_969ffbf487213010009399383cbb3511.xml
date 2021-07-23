@@ -15,14 +15,12 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_476139_ebay_item">batchVALCHANGES^batchISNOTEMPTY^sent_to_dropbox=true^EQ<item endquery="false" field="batch" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="false" field="batch" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="sent_to_dropbox" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter_condition table="x_476139_ebay_item">batchISNOTEMPTY^EQ<item endquery="false" field="batch" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Move To New Batch Folder</name>
+        <name>Set Batch To Full</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -32,28 +30,34 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	
-	x_476139_dropbox.DropboxUtil.move(previous.batch.folder.path.toString() + '/' + previous.getValue('name').trim(), current.batch.folder.path.toString() + '/' + current.getValue('name').trim());
 
+	var itemGR = new GlideRecord(current.getTableName());
+	itemGR.addQuery('batch', current.getValue('batch'));
+	itemGR.query();
+	if(itemGR.getRowCount() > 19){
+		var batchGR = current.batch.getRefRecord();
+		batchGR.setValue('state', 'full');
+		batchGR.update();
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
-        <sys_created_on>2021-07-15 22:29:10</sys_created_on>
+        <sys_created_on>2021-07-22 15:43:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1239917287d17010009399383cbb35d5</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Move To New Batch Folder</sys_name>
+        <sys_id>969ffbf487213010009399383cbb3511</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Batch To Full</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name>sys_script_1239917287d17010009399383cbb35d5</sys_update_name>
+        <sys_update_name>sys_script_969ffbf487213010009399383cbb3511</sys_update_name>
         <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-07-23 21:21:35</sys_updated_on>
+        <sys_updated_on>2021-07-22 20:48:29</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=1239917287d17010009399383cbb35d5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=969ffbf487213010009399383cbb3511"/>
 </record_update>
