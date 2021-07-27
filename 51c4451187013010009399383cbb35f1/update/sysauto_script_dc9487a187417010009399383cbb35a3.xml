@@ -36,6 +36,7 @@ for(var i = 0; i < orders.length; i++){
 			itemGR.setValue('fees', orders[i].totalMarketplaceFee.value);
 			itemGR.setValue('shipping', lineItem.deliveryCost.shippingCost.value);
 			itemGR.setValue('name', lineItem.title);
+			itemGR.setValue('sale_date', today);
 			itemGR.update();
 		}
 	}else{
@@ -66,14 +67,14 @@ function createTask(order){
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-06-29 22:44:33</sys_created_on>
         <sys_id>dc9487a187417010009399383cbb35a3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Sync New Orders</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sysauto_script_dc9487a187417010009399383cbb35a3</sys_update_name>
         <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-07-15 20:42:19</sys_updated_on>
+        <sys_updated_on>2021-07-26 16:45:32</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

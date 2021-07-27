@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Vulture Item</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Vulture Item</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 20:52:15</sys_created_on>
+        <sys_id>f8dd259e87a13010009399383cbb3525</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vulture Item</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_data_item_f8dd259e87a13010009399383cbb3525</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 20:53:27</sys_updated_on>
+        <table>x_476139_ebay_item</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=f8dd259e87a13010009399383cbb3525"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ebay">51c4451187013010009399383cbb35f1</application>
+        <file_path/>
+        <instance_id>d5b0cf0adb02ff480b9d21c405961913</instance_id>
+        <instance_name>dev87762</instance_name>
+        <name>sys_sg_data_item_f8dd259e87a13010009399383cbb3525</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Vulture Item</description><group_by/><instance_relative_url_qc/><name>Vulture Item</name><query_condition/><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>rmedved</sys_created_by><sys_created_on>2021-07-26 20:52:15</sys_created_on><sys_id>f8dd259e87a13010009399383cbb3525</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vulture Item</sys_name><sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package><sys_policy/><sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope><sys_update_name>sys_sg_data_item_f8dd259e87a13010009399383cbb3525</sys_update_name><sys_updated_by>rmedved</sys_updated_by><sys_updated_on>2021-07-26 20:53:27</sys_updated_on><table>x_476139_ebay_item</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=f8dd259e87a13010009399383cbb3525"/></record_update>]]></payload>
+        <payload_hash>-462170645</payload_hash>
+        <record_name>Vulture Item</record_name>
+        <reverted_from/>
+        <source>cf6c52ed878d3010009399383cbb354d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 20:53:27</sys_created_on>
+        <sys_id>521e299e87a13010009399383cbb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ae4980b130000001</sys_recorded_at>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 20:53:27</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>d61ea55ed0a130105eee645c799e526d</update_guid>
+        <update_guid_history>d61ea55ed0a130105eee645c799e526d:-462170645,bcdd259e25a13010be0a3c92790e5727:2105992861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 22:43:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>3243f0e9ff04442196e68bda824c94c1</sys_id>
+        <sys_metadata>f8dd259e87a13010009399383cbb3525</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vulture Item</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_scope_delete display_value="">477a4948cc8c4dbc9e0f9f843457d010</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_f8dd259e87a13010009399383cbb3525</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_f8dd259e87a13010009399383cbb3525">521e299e87a13010009399383cbb35fd</sys_update_version>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 22:43:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

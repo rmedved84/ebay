@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="DELETE">
+        <applet_launcher display_value="Vulture">b9e3b5d287e13010009399383cbb353e</applet_launcher>
+        <order>10</order>
+        <quick_action_button/>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 21:24:31</sys_created_on>
+        <sys_id>e135bd1687e13010009399383cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_e135bd1687e13010009399383cbb3586</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 21:24:31</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ebay">51c4451187013010009399383cbb35f1</application>
+        <file_path/>
+        <instance_id>d5b0cf0adb02ff480b9d21c405961913</instance_id>
+        <instance_name>dev87762</instance_name>
+        <name>sys_sg_alp_quick_action_map_e135bd1687e13010009399383cbb3586</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map"><sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE"><applet_launcher display_value="Vulture">b9e3b5d287e13010009399383cbb353e</applet_launcher><order>10</order><quick_action_button/><sys_class_name>sys_sg_alp_quick_action_map</sys_class_name><sys_created_by>rmedved</sys_created_by><sys_created_on>2021-07-26 21:24:31</sys_created_on><sys_id>e135bd1687e13010009399383cbb3586</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package><sys_policy/><sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope><sys_update_name>sys_sg_alp_quick_action_map_e135bd1687e13010009399383cbb3586</sys_update_name><sys_updated_by>rmedved</sys_updated_by><sys_updated_on>2021-07-26 21:24:31</sys_updated_on></sys_sg_alp_quick_action_map></record_update>]]></payload>
+        <payload_hash>-489197510</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cf6c52ed878d3010009399383cbb354d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 22:39:04</sys_created_on>
+        <sys_id>9d460ad287253010009399383cbb353c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ae4f8bbb90000001</sys_recorded_at>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 22:39:04</sys_updated_on>
+        <type>Quick Actions Menu Map</type>
+        <update_guid>a135b156b8e1301003e2829618be8f84</update_guid>
+        <update_guid_history>a135b156b8e1301003e2829618be8f84:1872459733,a135b156b8e1301003e2829618be8f84:1872459733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 22:39:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_alp_quick_action_map">sys_sg_alp_quick_action_map</sys_db_object>
+        <sys_id>0bd22668eb1941ea9a896527088ab984</sys_id>
+        <sys_metadata>e135bd1687e13010009399383cbb3586</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_scope_delete display_value="">477a4948cc8c4dbc9e0f9f843457d010</sys_scope_delete>
+        <sys_update_name>sys_sg_alp_quick_action_map_e135bd1687e13010009399383cbb3586</sys_update_name>
+        <sys_update_version display_value="sys_sg_alp_quick_action_map_e135bd1687e13010009399383cbb3586">9d460ad287253010009399383cbb353c</sys_update_version>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 22:39:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
