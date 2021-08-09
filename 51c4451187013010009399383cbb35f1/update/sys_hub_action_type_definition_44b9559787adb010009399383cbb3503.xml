@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>sync_new_listings</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>75c915d787adb010009399383cbb35ad</latest_snapshot>
+        <master_snapshot>31c915d787adb010009399383cbb3586</master_snapshot>
+        <name>Sync New Listings</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44b9559787adb010009399383cbb3503</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Sync New Listings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_44b9559787adb010009399383cbb3503</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=44b9559787adb010009399383cbb3503"/>
+    <sys_variable_value action="delete_multiple" query="document_key=44b9559787adb010009399383cbb3503"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=44b9559787adb010009399383cbb3503^sys_idNOT IN20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action>
+        <cid>825d69be-041e-4ee7-b2ea-b619cbb73b1a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:30</sys_created_on>
+        <sys_id>20c911d787adb010009399383cbb35e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20c911d787adb010009399383cbb35e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:30</sys_created_on>
+        <sys_id>2cc9d1d787adb010009399383cbb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:30</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var today = new GlideDate();
+var endTime = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-120);
+var startTime = today.getDisplayValue() + 'T00:00:00.000Z';
+var listings = EbayUtil.getListings(startTime, endTime, 1);
+var totalPages = parseInt(listings.GetSellerListResponse.PaginationResult.TotalNumberOfPages);
+listingsWithNewSku = [];
+doIt(listings);
+
+for(var i = 2; i &lt; totalPages + 1; i++){
+  listings = EbayUtil.getListings(startTime, endTime, i);
+  doIt(listings)
+}
+
+function doIt(listings) {
+    listings = listings.GetSellerListResponse.ItemArray.Item;
+  gs.info(listings[0])
+    for (var j = 0; j &lt; listings.length; j++) {
+        if (listings[j].SKU &amp;&amp; listings[j].SKU.toLowerCase().indexOf('inv') == -1) {
+            var itemGR = new GlideRecord('x_476139_ebay_item');
+          itemGR.addNullQuery('legacy_listing_id')
+          itemGR.addQuery('number', listings[j].SKU);
+          itemGR.query();
+          while(itemGR.next()){
+            itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+            itemGR.setValue('name', listings[j].Title);
+            itemGR.update();
+          }
+        }
+    }
+}
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>39c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>75c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>b1c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>fdc915d787adb010009399383cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=44b9559787adb010009399383cbb3503^sys_idNOT IN82c915d787adb010009399383cbb35d0"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"82c915d787adb010009399383cbb35d0","name":"plan"}}</plan>
+        <snapshot>75c915d787adb010009399383cbb35ad</snapshot>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82c915d787adb010009399383cbb35d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sync_new_listings</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Sync New Listings</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Sync New Listings">44b9559787adb010009399383cbb3503</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31c915d787adb010009399383cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=31c915d787adb010009399383cbb3586"/>
+    <sys_variable_value action="delete_multiple" query="document_key=31c915d787adb010009399383cbb3586"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=31c915d787adb010009399383cbb3586^sys_idNOT IN79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action>
+        <cid>825d69be-041e-4ee7-b2ea-b619cbb73b1a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>79c915d787adb010009399383cbb35a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=79c915d787adb010009399383cbb35a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>35c915d787adb010009399383cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var today = new GlideDate();
+var endTime = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-120);
+var startTime = today.getDisplayValue() + 'T00:00:00.000Z';
+var listings = EbayUtil.getListings(startTime, endTime, 1);
+var totalPages = parseInt(listings.GetSellerListResponse.PaginationResult.TotalNumberOfPages);
+listingsWithNewSku = [];
+doIt(listings);
+
+for(var i = 2; i &lt; totalPages + 1; i++){
+  listings = EbayUtil.getListings(startTime, endTime, i);
+  doIt(listings)
+}
+
+function doIt(listings) {
+    listings = listings.GetSellerListResponse.ItemArray.Item;
+  gs.info(listings[0])
+    for (var j = 0; j &lt; listings.length; j++) {
+        if (listings[j].SKU &amp;&amp; listings[j].SKU.toLowerCase().indexOf('inv') == -1) {
+            var itemGR = new GlideRecord('x_476139_ebay_item');
+          itemGR.addNullQuery('legacy_listing_id')
+          itemGR.addQuery('number', listings[j].SKU);
+          itemGR.query();
+          while(itemGR.next()){
+            itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+            itemGR.setValue('name', listings[j].Title);
+            itemGR.update();
+          }
+        }
+    }
+}
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>39c915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>71c915d787adb010009399383cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>bdc915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>f9c915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+</record_update>
