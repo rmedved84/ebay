@@ -3,70 +3,84 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pounds</element>
             <position>0</position>
-            <sys_created_by>rmedved</sys_created_by>
-            <sys_created_on>2021-07-16 02:38:29</sys_created_on>
-            <sys_id>5d93563e87557010009399383cbb35c2</sys_id>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>72400ac42f423010c652de1a2799b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
-            <sys_updated_by>rmedved</sys_updated_by>
-            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ounces</element>
             <position>1</position>
-            <sys_created_by>rmedved</sys_created_by>
-            <sys_created_on>2021-07-16 02:38:29</sys_created_on>
-            <sys_id>dd93563e87557010009399383cbb35c2</sys_id>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>f2400ac42f423010c652de1a2799b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
-            <sys_updated_by>rmedved</sys_updated_by>
-            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>shipping_method</element>
             <position>2</position>
-            <sys_created_by>rmedved</sys_created_by>
-            <sys_created_on>2021-07-16 02:38:29</sys_created_on>
-            <sys_id>5193563e87557010009399383cbb35c3</sys_id>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>76400ac42f423010c652de1a2799b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
-            <sys_updated_by>rmedved</sys_updated_by>
-            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>secondary_shipping_option</element>
+            <position>3</position>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>f6400ac42f423010c652de1a2799b620</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>box_dimensions</element>
-            <position>3</position>
-            <sys_created_by>rmedved</sys_created_by>
-            <sys_created_on>2021-07-16 02:38:29</sys_created_on>
-            <sys_id>d193563e87557010009399383cbb35c3</sys_id>
+            <position>4</position>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>7a400ac42f423010c652de1a2799b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
-            <sys_updated_by>rmedved</sys_updated_by>
-            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_box_dimension</element>
-            <position>4</position>
-            <sys_created_by>rmedved</sys_created_by>
-            <sys_created_on>2021-07-16 02:38:29</sys_created_on>
-            <sys_id>5593563e87557010009399383cbb35c3</sys_id>
+            <position>5</position>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-08-13 18:58:01</sys_created_on>
+            <sys_id>fa400ac42f423010c652de1a2799b620</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Shipping Details" display_value="Shipping Details" name="x_476139_ebay_item" sys_domain="global" view="Default view">c46216fa87557010009399383cbb35cc</sys_ui_section>
-            <sys_updated_by>rmedved</sys_updated_by>
-            <sys_updated_on>2021-07-16 02:38:29</sys_updated_on>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-08-13 18:58:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
