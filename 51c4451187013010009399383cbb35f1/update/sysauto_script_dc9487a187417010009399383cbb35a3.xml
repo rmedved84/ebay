@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <business_calendar/>
         <condition/>
         <conditional>false</conditional>
@@ -36,6 +36,7 @@ for(var i = 0; i < orders.length; i++){
 			itemGR.setValue('fees', orders[i].totalMarketplaceFee.value);
 			itemGR.setValue('shipping', lineItem.deliveryCost.shippingCost.value);
 			itemGR.setValue('name', lineItem.title);
+			itemGR.setValue('sale_date', today);
 			itemGR.update();
 		}
 	}else{
@@ -49,7 +50,7 @@ function createTask(order){
 	taskGR.initialize();
 	var description = 'Sale Price: ' + lineItem.total.value + 
       '\nShipping: ' + lineItem.deliveryCost.shippingCost.value +
-      '\nFees: ' + order.totalMarketplaceFee.value ;
+      '\nFees: ' + order.totalMarketplaceFee.value;
 	taskGR.setValue('short_description', lineItem.title);
 	taskGR.setValue('owner', '81c8566d878d3010009399383cbb3506');
 	taskGR.setValue('active', true);
@@ -66,14 +67,14 @@ function createTask(order){
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-06-29 22:44:33</sys_created_on>
         <sys_id>dc9487a187417010009399383cbb35a3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Sync New Orders</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sysauto_script_dc9487a187417010009399383cbb35a3</sys_update_name>
         <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-07-15 20:42:19</sys_updated_on>
+        <sys_updated_on>2021-07-29 19:06:55</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

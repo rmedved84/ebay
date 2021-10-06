@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Vulture">b9e3b5d287e13010009399383cbb353e</applet_launcher>
+        <order>20</order>
+        <quick_action_button display_value="Add Item">e72686d287253010009399383cbb35f5</quick_action_button>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 22:38:40</sys_created_on>
+        <sys_id>6b2686d287253010009399383cbb35f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_6b2686d287253010009399383cbb35f8</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 22:38:40</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+</record_update>

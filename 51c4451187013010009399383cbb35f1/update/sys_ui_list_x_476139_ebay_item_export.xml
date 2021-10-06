@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_476139_ebay_item" version="2" view="export">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>737aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f37aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bin_number</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>777aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fees</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f77aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inventory_number</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7b7aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>legacy_listing_id</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>fb7aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>profit</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7f7aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>purchase_date</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>ff7aa0292f473010c652de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>purchase_location</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>737aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sale_date</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f37aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>batch</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>777aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>box_dimensions</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f77aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7b7aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>fb7aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>custom_box_dimension</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7f7aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dropbox_folder</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>ff7aa0292f473010c652de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>details</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>737aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>measurement_details</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f37aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ounces</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>777aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>pounds</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f77aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>purchase_price</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7b7aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>secondary_shipping_option</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>fb7aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>selling_price</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7f7aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sent_to_dropbox</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>ff7aa0292f473010c652de1a2799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>shipping</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>737aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>shipping_method</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f37aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>storage_location</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>777aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>f77aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7b7aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>fb7aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>7f7aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>weight</element>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_id>ff7aa0292f473010c652de1a2799b6a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_476139_ebay_item</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rmedved84@gmail.com</sys_created_by>
+            <sys_created_on>2021-10-06 21:36:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b77aa0292f473010c652de1a2799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_476139_ebay_item</sys_name>
+            <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+            <sys_update_name>sys_ui_list_x_476139_ebay_item_export</sys_update_name>
+            <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+            <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Export" name="export">e8f82982879d3010009399383cbb35cf</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

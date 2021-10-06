@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Account Deletion</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var endpoint = 'https://dev87762.service-now.com/api/x_476139_ebay/marketplace/account_deletion';
+    var verification = 'CEg97RNhcWkW7fbjLwb7hxcrx6zaBUeN';
+	//var challengeCode = request.queryParams.challenge_code;
+	//var challengeResponse = challengeCode + verification + endpoint;
+	
+	//var digest = new GlideDigest();
+	//challengeResponse = (digest.getSHA256Hex(challengeResponse));
+	
+ 	//var writer = response.getStreamWriter();
+	//response.setHeader('Content-Type', 'application/json');
+	//writer.writeString(JSON.stringify({"challengeResponse": challengeResponse}));
+	response.setStatus(200);
+	
+	gs.info('request body: ' + request.body);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_476139_ebay/marketplace/account_deletion</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/account_deletion</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-08-30 17:17:14</sys_created_on>
+        <sys_id>70b7c16187da7c10009399383cbb35f9</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Account Deletion</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_ws_operation_70b7c16187da7c10009399383cbb35f9</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-31 16:14:49</sys_updated_on>
+        <web_service_definition display_value="Marketplace">8b578d2187da7c10009399383cbb3516</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

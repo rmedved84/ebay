@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>sync_new_listings</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>31c915d787adb010009399383cbb3586</master_snapshot>
+        <name>Sync New Listings</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44b9559787adb010009399383cbb3503</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Sync New Listings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_44b9559787adb010009399383cbb3503</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=44b9559787adb010009399383cbb3503"/>
+    <sys_variable_value action="delete_multiple" query="document_key=44b9559787adb010009399383cbb3503"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>44b9559787adb010009399383cbb3503</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>337cf8a52f873010c652de1a2799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2b7cf8a52f873010c652de1a2799b67a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>44b9559787adb010009399383cbb3503</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>f77cf8a52f873010c652de1a2799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD2b7cf8a5458730108462677b1299fd6f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD2b7cf8a5458730108462677b1299fd6f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0bf91915-2a84-43c8-a495-9e8ce0462990\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2b7cf8a5458730108462677b1299fd6f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"-1\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">ef7cf8a52f873010c652de1a2799b672</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503^id=44b9559787adb010009399383cbb3503"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=44b9559787adb010009399383cbb3503^sys_idNOT IN20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action>
+        <cid>825d69be-041e-4ee7-b2ea-b619cbb73b1a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:30</sys_created_on>
+        <sys_id>20c911d787adb010009399383cbb35e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:28</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20c911d787adb010009399383cbb35e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:30</sys_created_on>
+        <sys_id>2cc9d1d787adb010009399383cbb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:30</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var today = new GlideDate();
+var endTime = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-120);
+var startTime = today.getDisplayValue() + 'T00:00:00.000Z';
+var listings = EbayUtil.getListings(startTime, endTime, 1);
+var totalPages = parseInt(listings.GetSellerListResponse.PaginationResult.TotalNumberOfPages);
+listingsWithNewSku = [];
+doIt(listings);
+
+for(var i = 2; i &lt; totalPages + 1; i++){
+  listings = EbayUtil.getListings(startTime, endTime, i);
+  doIt(listings)
+}
+
+function doIt(listings) {
+    listings = listings.GetSellerListResponse.ItemArray.Item;
+  gs.info(listings[0])
+    for (var j = 0; j &lt; listings.length; j++) {
+        if (listings[j].SKU &amp;&amp; listings[j].SKU.toLowerCase().indexOf('inv') == -1) {
+            var itemGR = new GlideRecord('x_476139_ebay_item');
+          itemGR.addNullQuery('legacy_listing_id')
+          itemGR.addQuery('number', listings[j].SKU);
+          itemGR.query();
+          while(itemGR.next()){
+            itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+            itemGR.setValue('name', listings[j].Title);
+            itemGR.update();
+          }
+        }
+    }
+}
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>39c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>75c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:28</sys_updated_on>
+        <value>instance</value>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>b1c915d787adb010009399383cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>20c911d787adb010009399383cbb35e0</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:35</sys_created_on>
+        <sys_id>fdc915d787adb010009399383cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_action_output action="delete_multiple" query="model=44b9559787adb010009399383cbb3503^sys_idNOT IN2b7cf8a52f873010c652de1a2799b67a,ef7cf8a52f873010c652de1a2799b672"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ea7e294d-c9c2-45d5-86e5-4976451b746c,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sync New Listings">44b9559787adb010009399383cbb3503</model>
+        <model_id>44b9559787adb010009399383cbb3503</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>2b7cf8a52f873010c652de1a2799b67a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD2b7cf8a5458730108462677b1299fd6f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0bf91915-2a84-43c8-a495-9e8ce0462990</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Sync New Listings">44b9559787adb010009399383cbb3503</model>
+        <model_id>44b9559787adb010009399383cbb3503</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:28</sys_created_on>
+        <sys_id>ef7cf8a52f873010c652de1a2799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=44b9559787adb010009399383cbb3503^sys_idNOT INb37cf8a52f873010c652de1a2799b6a1"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_type_id>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>b37cf8a52f873010c652de1a2799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503^sys_idNOT IN637cf8a52f873010c652de1a2799b679,fb7cf8a52f873010c652de1a2799b69b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>637cf8a52f873010c652de1a2799b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:29</sys_created_on>
+        <sys_id>fb7cf8a52f873010c652de1a2799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=44b9559787adb010009399383cbb3503^sys_idNOT IN82c915d787adb010009399383cbb35d0"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"82c915d787adb010009399383cbb35d0","name":"plan","plan_signature":null}}</plan>
+        <snapshot>c48cf8a52f873010c652de1a2799b6e2</snapshot>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82c915d787adb010009399383cbb35d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:32</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sync_new_listings</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Sync New Listings</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Sync New Listings">44b9559787adb010009399383cbb3503</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31c915d787adb010009399383cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=31c915d787adb010009399383cbb3586"/>
+    <sys_variable_value action="delete_multiple" query="document_key=31c915d787adb010009399383cbb3586"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>31c915d787adb010009399383cbb3586</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:31</sys_created_on>
+        <sys_id>088cf8a52f873010c652de1a2799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD848cf8a5918730107ff92c42c8a021cc":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD848cf8a5918730107ff92c42c8a021cc.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0bf91915-2a84-43c8-a495-9e8ce0462990\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD848cf8a5918730107ff92c42c8a021cc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">488cf8a52f873010c652de1a2799b6ce</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>31c915d787adb010009399383cbb3586</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:31</sys_created_on>
+        <sys_id>448cf8a52f873010c652de1a2799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">808cf8a52f873010c652de1a2799b6d5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586^id=31c915d787adb010009399383cbb3586"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=31c915d787adb010009399383cbb3586^sys_idNOT IN79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action>
+        <cid>825d69be-041e-4ee7-b2ea-b619cbb73b1a</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>79c915d787adb010009399383cbb35a2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=79c915d787adb010009399383cbb35a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>35c915d787adb010009399383cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var today = new GlideDate();
+var endTime = today.getDisplayValue() + 'T00:00:00.000Z';
+today.addDaysLocalTime(-120);
+var startTime = today.getDisplayValue() + 'T00:00:00.000Z';
+var listings = EbayUtil.getListings(startTime, endTime, 1);
+var totalPages = parseInt(listings.GetSellerListResponse.PaginationResult.TotalNumberOfPages);
+listingsWithNewSku = [];
+doIt(listings);
+
+for(var i = 2; i &lt; totalPages + 1; i++){
+  listings = EbayUtil.getListings(startTime, endTime, i);
+  doIt(listings)
+}
+
+function doIt(listings) {
+    listings = listings.GetSellerListResponse.ItemArray.Item;
+  gs.info(listings[0])
+    for (var j = 0; j &lt; listings.length; j++) {
+        if (listings[j].SKU &amp;&amp; listings[j].SKU.toLowerCase().indexOf('inv') == -1) {
+            var itemGR = new GlideRecord('x_476139_ebay_item');
+          itemGR.addNullQuery('legacy_listing_id')
+          itemGR.addQuery('number', listings[j].SKU);
+          itemGR.query();
+          while(itemGR.next()){
+            itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+            itemGR.setValue('name', listings[j].Title);
+            itemGR.update();
+          }
+        }
+    }
+}
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>39c915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>71c915d787adb010009399383cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>bdc915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <value>instance</value>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>79c915d787adb010009399383cbb35a2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-29 21:58:36</sys_created_on>
+        <sys_id>f9c915d787adb010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-29 21:58:36</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_action_output action="delete_multiple" query="model=31c915d787adb010009399383cbb3586^sys_idNOT IN488cf8a52f873010c652de1a2799b6ce,808cf8a52f873010c652de1a2799b6d5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD848cf8a5918730107ff92c42c8a021cc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0bf91915-2a84-43c8-a495-9e8ce0462990</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Sync New Listings">31c915d787adb010009399383cbb3586</model>
+        <model_id>31c915d787adb010009399383cbb3586</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:30</sys_created_on>
+        <sys_id>488cf8a52f873010c652de1a2799b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ea7e294d-c9c2-45d5-86e5-4976451b746c,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Sync New Listings">31c915d787adb010009399383cbb3586</model>
+        <model_id>31c915d787adb010009399383cbb3586</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:30</sys_created_on>
+        <sys_id>808cf8a52f873010c652de1a2799b6d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=31c915d787adb010009399383cbb3586^sys_idNOT INc08cf8a52f873010c652de1a2799b6e2"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action_type_id>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:31</sys_created_on>
+        <sys_id>c08cf8a52f873010c652de1a2799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586^sys_idNOT IN0c8cf8a52f873010c652de1a2799b6d3,408cf8a52f873010c652de1a2799b6dd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:30</sys_created_on>
+        <sys_id>0c8cf8a52f873010c652de1a2799b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:30</sys_created_on>
+        <sys_id>408cf8a52f873010c652de1a2799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>44b9559787adb010009399383cbb3503</sys_id>
+        <latest_snapshot>31c915d787adb010009399383cbb3586</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

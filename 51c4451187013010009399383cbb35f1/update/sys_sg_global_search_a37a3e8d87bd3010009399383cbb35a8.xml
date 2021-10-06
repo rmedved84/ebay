@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_global_search">
+    <sys_sg_global_search action="INSERT_OR_UPDATE">
+        <default_empty_state display_value="Default Empty State">53aa5156b723101096aa25efce11a933</default_empty_state>
+        <filtered_empty_state display_value="Default Empty State">53aa5156b723101096aa25efce11a933</filtered_empty_state>
+        <interleave>true</interleave>
+        <name>Vulture Items</name>
+        <placeholder/>
+        <search_context_config display_value="Vulture Search">62aafe8d87bd3010009399383cbb3518</search_context_config>
+        <sys_class_name>sys_sg_global_search</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-08-04 15:32:10</sys_created_on>
+        <sys_id>a37a3e8d87bd3010009399383cbb35a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vulture Items</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_global_search_a37a3e8d87bd3010009399383cbb35a8</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-04 15:34:59</sys_updated_on>
+        <vision_api_enabled>false</vision_api_enabled>
+    </sys_sg_global_search>
+</record_update>

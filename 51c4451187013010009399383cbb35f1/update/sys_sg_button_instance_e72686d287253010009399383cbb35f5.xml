@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Create New Item">0ab2061287253010009399383cbb3561</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon display_value="icon-Plus-Solid">ab2606d287253010009399383cbb3539</icon>
+        <label>Add Item</label>
+        <location>quick_action</location>
+        <name>Add Item</name>
+        <order/>
+        <parent>b9e3b5d287e13010009399383cbb353e</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 22:38:40</sys_created_on>
+        <sys_id>e72686d287253010009399383cbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Item</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e72686d287253010009399383cbb35f5</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-07-26 22:38:40</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e72686d287253010009399383cbb35f5"/>
+</record_update>

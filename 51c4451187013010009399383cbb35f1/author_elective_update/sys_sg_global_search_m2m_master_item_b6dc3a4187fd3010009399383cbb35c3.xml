@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_global_search_m2m_master_item">
+    <sys_sg_global_search_m2m_master_item action="DELETE">
+        <global_search display_value="Vulture Items">a37a3e8d87bd3010009399383cbb35a8</global_search>
+        <master_item display_value="Vulture Items Main Item">ad08025687253010009399383cbb3578</master_item>
+        <sys_class_name>sys_sg_global_search_m2m_master_item</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-08-04 15:41:20</sys_created_on>
+        <sys_id>b6dc3a4187fd3010009399383cbb35c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_global_search_m2m_master_item_b6dc3a4187fd3010009399383cbb35c3</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-04 15:41:20</sys_updated_on>
+    </sys_sg_global_search_m2m_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ebay">51c4451187013010009399383cbb35f1</application>
+        <file_path/>
+        <instance_id>d5b0cf0adb02ff480b9d21c405961913</instance_id>
+        <instance_name>dev87762</instance_name>
+        <name>sys_sg_global_search_m2m_master_item_b6dc3a4187fd3010009399383cbb35c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_global_search_m2m_master_item"><sys_sg_global_search_m2m_master_item action="INSERT_OR_UPDATE"><global_search display_value="Vulture Items">a37a3e8d87bd3010009399383cbb35a8</global_search><master_item display_value="Vulture Items Main Item">ad08025687253010009399383cbb3578</master_item><sys_class_name>sys_sg_global_search_m2m_master_item</sys_class_name><sys_created_by>rmedved</sys_created_by><sys_created_on>2021-08-04 15:41:20</sys_created_on><sys_id>b6dc3a4187fd3010009399383cbb35c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package><sys_policy/><sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope><sys_update_name>sys_sg_global_search_m2m_master_item_b6dc3a4187fd3010009399383cbb35c3</sys_update_name><sys_updated_by>rmedved</sys_updated_by><sys_updated_on>2021-08-04 15:41:20</sys_updated_on></sys_sg_global_search_m2m_master_item></record_update>]]></payload>
+        <payload_hash>-1472908804</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cf6c52ed878d3010009399383cbb354d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-08-04 15:41:21</sys_created_on>
+        <sys_id>d2fcba4187fd3010009399383cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b11d388fd0000001</sys_recorded_at>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-04 15:41:21</sys_updated_on>
+        <type>Global Search M2M Item Configuration</type>
+        <update_guid>1efcba41a6fd30107ee518696c5ba4a8</update_guid>
+        <update_guid_history>1efcba41a6fd30107ee518696c5ba4a8:-1472908804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-08-04 15:42:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_global_search_m2m_master_item">sys_sg_global_search_m2m_master_item</sys_db_object>
+        <sys_id>5da144f4386a480892a6613c69841040</sys_id>
+        <sys_metadata>b6dc3a4187fd3010009399383cbb35c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_scope_delete display_value="">477a4948cc8c4dbc9e0f9f843457d010</sys_scope_delete>
+        <sys_update_name>sys_sg_global_search_m2m_master_item_b6dc3a4187fd3010009399383cbb35c3</sys_update_name>
+        <sys_update_version display_value="sys_sg_global_search_m2m_master_item_b6dc3a4187fd3010009399383cbb35c3">d2fcba4187fd3010009399383cbb35a9</sys_update_version>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-04 15:42:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

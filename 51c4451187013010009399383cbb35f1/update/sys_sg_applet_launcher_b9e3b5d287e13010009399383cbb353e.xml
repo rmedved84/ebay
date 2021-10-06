@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button display_value="Vulture Launcher Button Instance">fcd9f28d87bd3010009399383cbb35a5</header_button>
+        <header_titles>f9e3b5d287e13010009399383cbb3541</header_titles>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Vulture</name>
+        <required_roles>admin,x_476139_ebay.item_user</required_roles>
+        <search_config display_value="Vulture Items">a37a3e8d87bd3010009399383cbb35a8</search_config>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2021-07-26 21:18:49</sys_created_on>
+        <sys_id>b9e3b5d287e13010009399383cbb353e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vulture</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_b9e3b5d287e13010009399383cbb353e</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-08-04 15:33:26</sys_updated_on>
+        <title>Vulture</title>
+    </sys_sg_applet_launcher>
+</record_update>
