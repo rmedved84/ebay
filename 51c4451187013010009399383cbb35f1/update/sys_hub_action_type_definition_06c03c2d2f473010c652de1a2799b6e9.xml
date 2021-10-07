@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>06c03c2d2f473010c652de1a2799b6e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Export All Items</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_06c03c2d2f473010c652de1a2799b6e9</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:49:52</sys_updated_on>
+        <sys_updated_on>2021-10-07 15:05:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:41:20</sys_created_on>
         <sys_id>a849b4e12f873010c652de1a2799b6d6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:43:34</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5849b4e1b48730108b9201fdfa859b8c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2021-10-07 15:05:47</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5849b4e1b48730108b9201fdfa859b8c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">9049b4e12f873010c652de1a2799b690</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -86,10 +86,10 @@
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:05:09</sys_created_on>
         <sys_id>eaf0f82d2f473010c652de1a2799b69b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:41:19</sys_updated_on>
+        <sys_updated_on>2021-10-07 15:05:47</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -100,9 +100,9 @@
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:05:09</sys_created_on>
         <sys_id>62f0b06d2f473010c652de1a2799b6cc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:41:19</sys_updated_on>
+        <sys_updated_on>2021-10-07 15:05:47</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 var tableName = 'x_476139_ebay_item'; //table name to export from
@@ -125,7 +125,6 @@ for(var i = 0; i &lt; iterations; i++){
   var eccAttachmentID = createECCAttachmentGR();
   var fileName = fileNamePrefix + i;
   var attachmentID = downloadFile(id, eccAttachmentID, fileName);
-  //var eccID = insertToECC(attachmentID, eccAttachmentID, fileName);
   var responseBody = uploadToDropbox(fileName + '.' + fileFormat, attachmentID);
 }
 
@@ -170,30 +169,6 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
   var response = request.execute(); 
   var attachmentID = response.getResponseAttachmentSysid();
   return attachmentID;
-}
-
-function insertToECC(attachmentID, recordID, fileName){
-	var xmlString = getXMLString(attachmentID, recordID, fileName);
-	var eccGR = new GlideRecord('ecc_queue');
-	eccGR.initialize();
-	eccGR.setValue('agent', midServerName);
-	eccGR.setValue('topic', 'StreamPipeline');
-	eccGR.setValue('queue', 'output');
-	eccGR.setValue('payload', xmlString);
-	eccGR.insert();
-}
-
-function getXMLString(attachmentID, recordID, fileName){
-    fileName += '.' + fileFormat;
-	var xmlString = 
-	'&lt;?xml version="1.0" encoding="UTF-8"?&gt;' + 
-	'&lt;parameters&gt;' +
-		'&lt;parameter name=\"stream_relay_response_topic\" value=\"ExportSetResult\"/&gt;' +
-		'&lt;stream_relay_source attachment_sys_id=\"' + attachmentID + '\" type=\"AttachmentSource\"/&gt;' +
-		'&lt;stream_relay_transform attachment.table_sys_id=\"' + recordID + '\" order=\"0\" stream_relay_transfer_progress_interval=\"150\" type=\"AttachmentProgressTransformer\"/&gt;' +
-		'&lt;stream_relay_sink path="\/' + fileName + '\" type=\"FileSink\"/&gt;' +
-		'&lt;/parameters&gt;';
-	return xmlString;
 }
   
   function uploadToDropbox(attachmentName, attachmentID){
@@ -417,11 +392,11 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_on>2021-10-06 22:41:20</sys_created_on>
         <sys_id>5849b4e12f873010c652de1a2799b696</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_06c03c2d2f473010c652de1a2799b6e9___action_status___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:41:20</sys_updated_on>
         <url/>
@@ -440,16 +415,32 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_on>2021-10-06 22:41:20</sys_created_on>
         <sys_id>a049b4e12f873010c652de1a2799b6c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_06c03c2d2f473010c652de1a2799b6e9___dont_treat_as_error___en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:41:20</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=06c03c2d2f473010c652de1a2799b6e9^sys_idNOT IN0f9ad8352f033010c652de1a2799b668"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Export All Items">06c03c2d2f473010c652de1a2799b6e9</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0f9ad8352f033010c652de1a2799b668","name":"plan","plan_signature":null}}</plan>
+        <snapshot>7a9ad8352f033010c652de1a2799b63d</snapshot>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-07 15:05:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f9ad8352f033010c652de1a2799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:05:55</sys_updated_on>
+    </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -496,10 +487,10 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:43:35</sys_created_on>
         <sys_id>6dc9bce12f873010c652de1a2799b686</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:43:35</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD55c9bce19b873010d896faaee9789c72":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD55c9bce19b873010d896faaee9789c72.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD55c9bce19b873010d896faaee9789c72\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2021-10-07 15:05:53</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD55c9bce19b873010d896faaee9789c72":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD55c9bce19b873010d896faaee9789c72.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD55c9bce19b873010d896faaee9789c72\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">59c9bce12f873010c652de1a2799b674</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -534,10 +525,10 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:43:35</sys_created_on>
         <sys_id>11c9bce12f873010c652de1a2799b66a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:43:35</sys_updated_on>
+        <sys_updated_on>2021-10-07 15:05:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=11c9bce12f873010c652de1a2799b66a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -548,9 +539,9 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2021-10-06 22:43:35</sys_created_on>
         <sys_id>59c9bce12f873010c652de1a2799b670</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:43:35</sys_updated_on>
+        <sys_updated_on>2021-10-07 15:05:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
 var tableName = 'x_476139_ebay_item'; //table name to export from
@@ -573,7 +564,6 @@ for(var i = 0; i &lt; iterations; i++){
   var eccAttachmentID = createECCAttachmentGR();
   var fileName = fileNamePrefix + i;
   var attachmentID = downloadFile(id, eccAttachmentID, fileName);
-  //var eccID = insertToECC(attachmentID, eccAttachmentID, fileName);
   var responseBody = uploadToDropbox(fileName + '.' + fileFormat, attachmentID);
 }
 
@@ -618,30 +608,6 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
   var response = request.execute(); 
   var attachmentID = response.getResponseAttachmentSysid();
   return attachmentID;
-}
-
-function insertToECC(attachmentID, recordID, fileName){
-	var xmlString = getXMLString(attachmentID, recordID, fileName);
-	var eccGR = new GlideRecord('ecc_queue');
-	eccGR.initialize();
-	eccGR.setValue('agent', midServerName);
-	eccGR.setValue('topic', 'StreamPipeline');
-	eccGR.setValue('queue', 'output');
-	eccGR.setValue('payload', xmlString);
-	eccGR.insert();
-}
-
-function getXMLString(attachmentID, recordID, fileName){
-    fileName += '.' + fileFormat;
-	var xmlString = 
-	'&lt;?xml version="1.0" encoding="UTF-8"?&gt;' + 
-	'&lt;parameters&gt;' +
-		'&lt;parameter name=\"stream_relay_response_topic\" value=\"ExportSetResult\"/&gt;' +
-		'&lt;stream_relay_source attachment_sys_id=\"' + attachmentID + '\" type=\"AttachmentSource\"/&gt;' +
-		'&lt;stream_relay_transform attachment.table_sys_id=\"' + recordID + '\" order=\"0\" stream_relay_transfer_progress_interval=\"150\" type=\"AttachmentProgressTransformer\"/&gt;' +
-		'&lt;stream_relay_sink path="\/' + fileName + '\" type=\"FileSink\"/&gt;' +
-		'&lt;/parameters&gt;';
-	return xmlString;
 }
   
   function uploadToDropbox(attachmentName, attachmentID){
@@ -865,7 +831,7 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_on>2021-10-06 22:43:35</sys_created_on>
         <sys_id>5dc9bce12f873010c652de1a2799b679</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
@@ -888,7 +854,7 @@ function getXMLString(attachmentID, recordID, fileName){
         <sys_created_on>2021-10-06 22:43:35</sys_created_on>
         <sys_id>65c9bce12f873010c652de1a2799b683</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
