@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item" max_length="40" name="x_476139_ebay_item" text_index="true" type="collection">
+    <element audit="true" label="Item" max_length="40" name="x_476139_ebay_item" sizeclass="1246" text_index="true" type="collection">
         <element label="Batch" max_length="32" name="batch" reference="x_476139_ebay_batch" reference_qual="state=open^EQ" reference_qual_condition="state=open^EQ" type="reference"/>
         <element label="Bin Number" max_length="40" name="bin_number" type="string"/>
         <element choice="1" label="Box Dimensions" max_length="100" name="box_dimensions" type="choice">
@@ -23,7 +23,7 @@
         <element label="Legacy Listing ID" max_length="100" name="legacy_listing_id" type="string"/>
         <element label="Measurement Details" max_length="4000" name="measurement_details" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Custom SKU" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Custom SKU" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Ounces" max_length="40" name="ounces" type="string"/>
         <element label="Pounds" max_length="40" name="pounds" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var sellingPrice = current.selling_price;&#10;&#9;var shipping = current.shipping;&#10;&#9;var fees = current.fees;&#10;&#9;var purchasePrice = current.purchase_price;&#10;&#9;var profit = sellingPrice - shipping - fees - purchasePrice;&#10;&#9;return profit;  &#10;&#10;})(current);" label="Profit" max_length="20" name="profit" type="currency"/>

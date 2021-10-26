@@ -38,7 +38,7 @@
         <name>x_476139_ebay_item</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 21:00:04</sys_created_on>
-        <sys_id>de13659987413010009399383cbb3553</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>701771402f423010c652de1a2799b669</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Custom SKU</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_dictionary_x_476139_ebay_item_number</sys_update_name>
-        <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-07-16 02:37:51</sys_updated_on>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-26 21:03:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
