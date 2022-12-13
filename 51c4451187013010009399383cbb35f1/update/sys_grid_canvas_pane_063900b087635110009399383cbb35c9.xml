@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Ebay - New Tab">5fd68cfc87235110009399383cbb3576</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2022-11-30 16:09:42">4a3900b087635110009399383cbb35c7</portal_widget>
+        <posx>6</posx>
+        <posy>18</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-12-01 00:09:42</sys_created_on>
+        <sys_id>063900b087635110009399383cbb35c9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>5fd68cfc87235110009399383cbb3576</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_063900b087635110009399383cbb35c9</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-12-01 21:40:02</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

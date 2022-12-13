@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Ebay default_profile</name>
+        <oauth_entity display_value="Ebay">d4a9fe2d87870110009399383cbb3519</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-04-24 04:15:36</sys_created_on>
+        <sys_id>992abae987870110009399383cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebay default_profile</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>oauth_entity_profile_992abae987870110009399383cbb35db</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-04-24 04:15:36</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

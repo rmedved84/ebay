@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sync_shipping_fees</internal_name>
+        <label_cache>[{"name":"bbfee93f-1055-46dc-b13f-369a79eb497d.__dont_treat_as_error__","label":"1 - Sync Shipping Fees➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"8b014c66-579a-4d1a-9a37-93e7cc5ee52c"}},{"name":"bbfee93f-1055-46dc-b13f-369a79eb497d.__action_status__","label":"1 - Sync Shipping Fees➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDfe6c7f2427235110ebea7ae20032de01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"60c2f5e4-29f0-446d-afca-0d0c506378b6"}}]</label_cache>
+        <master_snapshot>5f7cff2487235110009399383cbb35da</master_snapshot>
+        <name>Sync Shipping Fees</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>237c336487235110009399383cbb3514</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:13:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>754c77e087235110009399383cbb3566</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Sync Shipping Fees</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_hub_flow_754c77e087235110009399383cbb3566</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=754c77e087235110009399383cbb3566"/>
+    <sys_variable_value action="delete_multiple" query="document_key=754c77e087235110009399383cbb3566"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2022-11-30 23:14:06</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>237c336487235110009399383cbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <time>1970-01-01 18:30:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:237c336487235110009399383cbb3514^sys_idNOT INe77c336487235110009399383cbb3514"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:237c336487235110009399383cbb3514</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Rob Medved">81c8566d878d3010009399383cbb3506</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-11-30 23:14:06</run_start>
+        <run_time>1970-01-01 18:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('237c336487235110009399383cbb3514');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:06</sys_created_on>
+        <sys_id>e77c336487235110009399383cbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">237c336487235110009399383cbb3514</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=754c77e087235110009399383cbb3566"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=754c77e087235110009399383cbb3566^sys_idNOT IN5a7cbf2487235110009399383cbb35fe"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Sync Shipping Fees">754c77e087235110009399383cbb3566</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:01</sys_created_on>
+        <sys_id>5a7cbf2487235110009399383cbb35fe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a7cbf2487235110009399383cbb35fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a7cbf2487235110009399383cbb35fe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:01</sys_created_on>
+        <sys_id>de7cbf2487235110009399383cbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:01</sys_updated_on>
+        <value>1970-01-01 10:30:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=5a7cbf2487235110009399383cbb35fe"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=754c77e087235110009399383cbb3566"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=754c77e087235110009399383cbb3566^sys_idNOT IN354c77e087235110009399383cbb3568"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>754c77e087235110009399383cbb3566</id>
+        <name>Sync Shipping Fees</name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:13:10</sys_created_on>
+        <sys_id>354c77e087235110009399383cbb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:13:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=354c77e087235110009399383cbb3568"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=754c77e087235110009399383cbb3566"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=754c77e087235110009399383cbb3566"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=754c77e087235110009399383cbb3566"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=754c77e087235110009399383cbb3566^sys_idNOT IN5a7cff2487235110009399383cbb3537"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Sync Shipping Fees">fe6c3f2487235110009399383cbb35e8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>fe6c3f2487235110009399383cbb35e8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync Shipping Fees">754c77e087235110009399383cbb3566</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:01</sys_created_on>
+        <sys_id>5a7cff2487235110009399383cbb3537</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-02 18:30:06</sys_updated_on>
+        <ui_id>bbfee93f-1055-46dc-b13f-369a79eb497d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a7cff2487235110009399383cbb3537"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a7cff2487235110009399383cbb3537"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a7cff2487235110009399383cbb3537"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=754c77e087235110009399383cbb3566"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=754c77e087235110009399383cbb3566"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=754c77e087235110009399383cbb3566"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=754c77e087235110009399383cbb3566"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_754c77e087235110009399383cbb3566"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_754c77e087235110009399383cbb3566"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_754c77e087235110009399383cbb3566"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_754c77e087235110009399383cbb3566"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=754c77e087235110009399383cbb3566^sys_idNOT INaf7c336487235110009399383cbb3516"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"af7c336487235110009399383cbb3516","name":"plan","plan_signature":null}}</plan>
+        <plan_id>754c77e087235110009399383cbb3566</plan_id>
+        <snapshot>f2ae41518727d110009399383cbb355b</snapshot>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af7c336487235110009399383cbb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <trigger display_value="">237c336487235110009399383cbb3514</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=754c77e087235110009399383cbb3566"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>sync_shipping_fees</internal_name>
+        <label_cache>[{"name":"bbfee93f-1055-46dc-b13f-369a79eb497d.__dont_treat_as_error__","label":"1 - Sync Shipping Fees➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"8b014c66-579a-4d1a-9a37-93e7cc5ee52c"}},{"name":"bbfee93f-1055-46dc-b13f-369a79eb497d.__action_status__","label":"1 - Sync Shipping Fees➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDfe6c7f2427235110ebea7ae20032de01","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"60c2f5e4-29f0-446d-afca-0d0c506378b6"}}]</label_cache>
+        <master>true</master>
+        <name>Sync Shipping Fees</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Sync Shipping Fees">754c77e087235110009399383cbb3566</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f7cff2487235110009399383cbb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:05</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f7cff2487235110009399383cbb35da"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5f7cff2487235110009399383cbb35da^sys_idNOT IN5b7cff2487235110009399383cbb35f0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Sync Shipping Fees">5f7cff2487235110009399383cbb35da</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:05</sys_created_on>
+        <sys_id>5b7cff2487235110009399383cbb35f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:06</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5b7cff2487235110009399383cbb35f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5b7cff2487235110009399383cbb35f0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:05</sys_created_on>
+        <sys_id>d37cff2487235110009399383cbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:05</sys_updated_on>
+        <value>1970-01-01 10:30:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=5b7cff2487235110009399383cbb35f0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5f7cff2487235110009399383cbb35da"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5f7cff2487235110009399383cbb35da^sys_idNOT IN137cff2487235110009399383cbb35dc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5f7cff2487235110009399383cbb35da</id>
+        <name>Sync Shipping Fees</name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:05</sys_created_on>
+        <sys_id>137cff2487235110009399383cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=137cff2487235110009399383cbb35dc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5f7cff2487235110009399383cbb35da^sys_idNOT IN9b7cff2487235110009399383cbb35e3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Sync Shipping Fees">fe6c3f2487235110009399383cbb35e8</action_type>
+        <action_type_parent display_value="Sync Shipping Fees">904b332087235110009399383cbb35fb</action_type_parent>
+        <comment/>
+        <compiled_snapshot>fe6c3f2487235110009399383cbb35e8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync Shipping Fees">5f7cff2487235110009399383cbb35da</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:14:05</sys_created_on>
+        <sys_id>9b7cff2487235110009399383cbb35e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:14:05</sys_updated_on>
+        <ui_id>bbfee93f-1055-46dc-b13f-369a79eb497d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b7cff2487235110009399383cbb35e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b7cff2487235110009399383cbb35e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b7cff2487235110009399383cbb35e3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5f7cff2487235110009399383cbb35da"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5f7cff2487235110009399383cbb35da"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5f7cff2487235110009399383cbb35da"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f7cff2487235110009399383cbb35da"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f7cff2487235110009399383cbb35da"/>
+    <sys_hub_flow action="update">
+        <sys_id>754c77e087235110009399383cbb3566</sys_id>
+        <latest_snapshot>5f7cff2487235110009399383cbb35da</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

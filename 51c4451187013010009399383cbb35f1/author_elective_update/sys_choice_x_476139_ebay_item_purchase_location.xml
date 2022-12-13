@@ -61,6 +61,26 @@
             <element>purchase_location</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Puchaser</label>
+            <language>en</language>
+            <name>x_476139_ebay_item</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>rmedved</sys_created_by>
+            <sys_created_on>2022-10-11 17:32:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cbec9e087aed110009399383cbb35a6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rmedved</sys_updated_by>
+            <sys_updated_on>2022-10-11 17:32:22</sys_updated_on>
+            <value>Purchaser</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>purchase_location</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Value Village</label>
             <language>en</language>
             <name>x_476139_ebay_item</name>

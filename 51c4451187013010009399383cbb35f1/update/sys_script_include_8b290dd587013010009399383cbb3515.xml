@@ -27,6 +27,20 @@
 		return responseBody;
 	}
 	
+	function getFees(params){
+		baseURL = 'https://apiz.ebay.com/';
+		var endpoint = 'sell/finances/v1/transaction';
+		if(params){
+			endpoint += '?';
+			for(var param in params){
+				endpoint += param + '=' + params[param] + '&';
+			}
+		}
+		var responseBody = _callEbay(endpoint, 'GET');
+		responseBody = JSON.parse(responseBody);
+		return responseBody;
+	}
+	
 	function getListings(startTime, endTime, pageNumber){
 		//2021-05-01T00:00:00.000Z
 		//2021-05-14T00:00:00.000Z
@@ -176,7 +190,7 @@
 	
 	function attachPDF(itemGR){
 		var request = new sn_ws.RESTMessageV2();
-		var url = gs.getProperty('glide.servlet.uri') + itemGR.getTableName() + '.do?PDF&sys_id=' + itemGR.getUniqueValue() + '&sysparm_view=dropbox_export';
+		var url = gs.getProperty('glide.servlet.uri') + itemGR.getTableName() + '.do?PDF&sys_id=' + itemGR.getUniqueValue() + '&sysparm_view=export';
 		request.setHttpMethod('GET');
 		request.setEndpoint(url);
 		request.setHttpMethod('GET');
@@ -191,7 +205,8 @@
 		'getListings': getListings,
 		'getOrders': getOrders,
 		'hasAllRequiredFields': hasAllRequiredFields,
-		'attachPDF': attachPDF
+		'attachPDF': attachPDF,
+		'getFees': getFees
 	};
 	
 })();]]></script>
@@ -199,13 +214,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 19:10:07</sys_created_on>
         <sys_id>8b290dd587013010009399383cbb3515</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>EbayUtil</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_script_include_8b290dd587013010009399383cbb3515</sys_update_name>
-        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-26 21:09:55</sys_updated_on>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-12-01 21:22:35</sys_updated_on>
     </sys_script_include>
 </record_update>

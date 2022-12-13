@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Ebay - New Tab">5fd68cfc87235110009399383cbb3576</canvas_page>
+        <name>Ebay - New Tab</name>
+        <page display_value="PA Ebay - New Tab">d7d68cfc87235110009399383cbb3575</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:59:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17d68cfc87235110009399383cbb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebay - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>pa_tabs_17d68cfc87235110009399383cbb3579</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-11-30 23:59:25</sys_updated_on>
+    </pa_tabs>
+</record_update>
