@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ebay_shipments</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Ebay Shipments</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    var itemGR = new GlideRecord('x_476139_ebay_item');
+    itemGR.addQuery('state', 'awaiting_shipment');
+    itemGR.query();
+    while (itemGR.next()) {
+        itemGR.setValue('state', '');
+        itemGR.update();
+    }
+    var params = {
+        "filter": "orderfulfillmentstatus:%7BNOT_STARTED%7CIN_PROGRESS%7D"
+    };
+    data.missingOrders = [];
+    var orders = EbayUtil.getOrders(params);
+    orders = orders.orders;
+    for (var i = 0; i < orders.length; i++) {
+        for (var j = 0; j < orders[i].lineItems.length; j++) {
+            itemGR = new GlideRecord('x_476139_ebay_item');
+            if (orders[i].lineItems[j].sku && itemGR.get('number', orders[i].lineItems[j].sku)) {
+                itemGR.setValue('state', 'awaiting_shipment');
+                itemGR.update();
+            } else {
+                itemGR.initialize();
+                itemGR.addQuery('legacy_listing_id', orders[i].lineItems[j].legacyItemId).addOrCondition('name', orders[i].lineItems[j].title);
+                itemGR.query();
+                if (itemGR.next()) {
+                    itemGR.setValue('state', 'awaiting_shipment');
+                    itemGR.update();
+                } else {
+                    var order = {
+                        "name": orders[i].lineItems[j].title
+                    };
+                    data.missingOrders.push(order);
+                }
+            }
+        }
+    }
+
+	data.totalOrders = orders.length;
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-12-29 21:15:45</sys_created_on>
+        <sys_id>42d5744a8788e510009399383cbb35da</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Ebay Shipments</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_widget_42d5744a8788e510009399383cbb35da</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-12-29 23:02:40</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.missingOrders.length > 0">
+  Total Orders Ready to Ship: {{data.totalOrders}}
+  <h1>Items that could not be found in vulture</h1>
+  <ul>
+    <li ng-repeat="order in data.missingOrders">Name: {{order.name}}</li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>

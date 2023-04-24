@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_476139_ebay_print.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<g:evaluate object="true">
+		var gr = new GlideRecord('x_476139_ebay_item');
+		gr.addQuery('sys_id', 'IN', RP.getWindowProperties().number);
+		gr.query();
+	</g:evaluate>
+	
+	
+	<div id='DivIdToPrint'>
+	<j:while test="${gr.next()}">
+		<h2 style="page-break-after:always">${gr.getValue('number')}</h2>
+	</j:while>
+</div>
+	
+
+
+	<input type='button' id='btn' value='Print' onClick='printDiv();'></input>
+<script>
+	function printDiv() 
+{
+
+  var divToPrint=document.getElementById('DivIdToPrint');
+
+  var newWin=window.open('','Print-Window');
+
+  newWin.document.open();
+
+  newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+
+  newWin.document.close();
+
+  setTimeout(function(){newWin.close();},10);
+
+}
+	</script>
+</j:jelly>]]></html>
+        <name>print</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2023-01-04 20:35:12</sys_created_on>
+        <sys_id>b276273787ccad10009399383cbb3533</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>print</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_ui_page_b276273787ccad10009399383cbb3533</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2023-01-04 22:14:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>

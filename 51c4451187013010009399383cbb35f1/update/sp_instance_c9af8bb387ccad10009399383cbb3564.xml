@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1e9fc37f878cad10009399383cbb3571</sp_column>
+        <sp_widget display_value="Print">a74f07b387ccad10009399383cbb3547</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2023-01-04 18:49:48</sys_created_on>
+        <sys_id>c9af8bb387ccad10009399383cbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_instance_c9af8bb387ccad10009399383cbb3564</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2023-01-04 18:49:48</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c9af8bb387ccad10009399383cbb3564"/>
+</record_update>
