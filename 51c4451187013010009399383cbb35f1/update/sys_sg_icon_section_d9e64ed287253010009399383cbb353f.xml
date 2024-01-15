@@ -2,12 +2,19 @@
     <sys_sg_icon_section action="INSERT_OR_UPDATE">
         <active>true</active>
         <applets>a908025687253010009399383cbb3523</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
         <data_item/>
         <display_feed_count>false</display_feed_count>
         <hide_header>false</hide_header>
         <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
         <orientation>horizontal</orientation>
         <required_roles/>
+        <row_count/>
         <sys_class_name>sys_sg_icon_section</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-07-26 22:41:47</sys_created_on>
@@ -23,5 +30,6 @@
         <table/>
         <title>Vulture Items</title>
         <visible_condition/>
+        <wide_column_count/>
     </sys_sg_icon_section>
 </record_update>

@@ -5,6 +5,7 @@
         <jwt_provider/>
         <name>Ebay default_profile</name>
         <oauth_entity display_value="Ebay">d4a9fe2d87870110009399383cbb3519</oauth_entity>
+        <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2022-04-24 04:15:36</sys_created_on>

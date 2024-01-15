@@ -2,7 +2,9 @@
     <sys_search_source action="INSERT_OR_UPDATE">
         <active>false</active>
         <condition/>
+        <group/>
         <name>Vulture Items</name>
+        <roles/>
         <source_table>x_476139_ebay_item</source_table>
         <sys_class_name>sys_search_source</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>

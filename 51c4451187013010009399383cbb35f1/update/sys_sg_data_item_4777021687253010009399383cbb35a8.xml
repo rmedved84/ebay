@@ -5,6 +5,8 @@
         <group_by/>
         <instance_relative_url_qc/>
         <name>Vulture Items</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
         <query_condition table="x_476139_ebay_item">^ORDERBYDESCsys_created_on<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
         </query_condition>
         <query_condition_script/>

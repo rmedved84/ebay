@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="open_nlu_driver_language">
+    <open_nlu_driver_language action="INSERT_OR_UPDATE">
+        <code>zh</code>
+        <driver display_value="">64c023c17300330021a044764df6a70e</driver>
+        <driver_codes>zh</driver_codes>
+        <language>Chinese</language>
+        <sys_class_name>open_nlu_driver_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 08:00:08</sys_created_on>
+        <sys_id>a5d71c6787694110009399383cbb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chinese</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>open_nlu_driver_language_a5d71c6787694110009399383cbb3527</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 08:00:08</sys_updated_on>
+    </open_nlu_driver_language>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Inventory Import" max_length="40" name="x_476139_ebay_inventory_import" sizeclass="0" type="collection">
+    <element db_object_id="ccacd22187cd3010009399383cbb3525" extends="sys_import_set_row" label="Inventory Import" max_length="40" name="x_476139_ebay_inventory_import" type="collection">
         <element attributes="import_attribute_name=Fees" label="Fees" max_length="15" name="u_fees" type="decimal"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Item Name" label="Item Name" max_length="60" name="u_item_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Notes" label="Notes" max_length="40" name="u_notes" type="string"/>

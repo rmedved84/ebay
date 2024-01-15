@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,6 +15,7 @@
         <name>Sync Shipping Fees</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>237c336487235110009399383cbb3514</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -157,7 +157,6 @@
         <action_type display_value="Sync Shipping Fees">fe6c3f2487235110009399383cbb35e8</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>fe6c3f2487235110009399383cbb35e8</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync Shipping Fees">754c77e087235110009399383cbb3566</flow>
         <order>1</order>
@@ -166,10 +165,10 @@
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2022-11-30 23:14:01</sys_created_on>
         <sys_id>5a7cff2487235110009399383cbb3537</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-12-02 18:30:06</sys_updated_on>
+        <sys_updated_on>2023-10-21 17:30:02</sys_updated_on>
         <ui_id>bbfee93f-1055-46dc-b13f-369a79eb497d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a7cff2487235110009399383cbb3537"/>
@@ -188,7 +187,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"af7c336487235110009399383cbb3516","name":"plan","plan_signature":null}}</plan>
         <plan_id>754c77e087235110009399383cbb3566</plan_id>
-        <snapshot>f2ae41518727d110009399383cbb355b</snapshot>
+        <snapshot>8c7a5c959702711028beb8d0f053af2b</snapshot>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2022-11-30 23:14:06</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -301,7 +300,6 @@
         <action_type display_value="Sync Shipping Fees">fe6c3f2487235110009399383cbb35e8</action_type>
         <action_type_parent display_value="Sync Shipping Fees">904b332087235110009399383cbb35fb</action_type_parent>
         <comment/>
-        <compiled_snapshot>fe6c3f2487235110009399383cbb35e8</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync Shipping Fees">5f7cff2487235110009399383cbb35da</flow>
         <order>1</order>
@@ -327,8 +325,9 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5f7cff2487235110009399383cbb35da"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f7cff2487235110009399383cbb35da"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f7cff2487235110009399383cbb35da"/>
-    <sys_hub_flow action="update">
+    <sys_hub_flow action="UPDATE">
         <sys_id>754c77e087235110009399383cbb3566</sys_id>
         <latest_snapshot>5f7cff2487235110009399383cbb35da</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:679c922187cd3010009399383cbb35da/sales, cogs, &amp; inventory tracker - single platform.xlsx</connection_url>
         <connection_url_parameters/>

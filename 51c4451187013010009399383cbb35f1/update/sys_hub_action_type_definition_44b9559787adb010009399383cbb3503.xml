@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -19,6 +18,7 @@
         <name>Sync New Listings</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>44b9559787adb010009399383cbb3503</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Sync New Listings</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_44b9559787adb010009399383cbb3503</sys_update_name>
-        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2021-10-07 15:07:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -196,6 +196,11 @@ function doIt(listings) {
         <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=20c911d787adb010009399383cbb35e0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_20c911d787adb010009399383cbb35e0"/>
+    <sys_hub_action_input action="delete_multiple" query="model=44b9559787adb010009399383cbb3503"/>
     <sys_hub_action_output action="delete_multiple" query="model=44b9559787adb010009399383cbb3503^sys_idNOT IN2b7cf8a52f873010c652de1a2799b67a,ef7cf8a52f873010c652de1a2799b672"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -229,6 +234,7 @@ function doIt(listings) {
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -276,10 +282,13 @@ function doIt(listings) {
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b7cf8a52f873010c652de1a2799b67a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2b7cf8a52f873010c652de1a2799b67a"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -312,6 +321,7 @@ function doIt(listings) {
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -359,10 +369,14 @@ function doIt(listings) {
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ef7cf8a52f873010c652de1a2799b672"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ef7cf8a52f873010c652de1a2799b672"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=44b9559787adb010009399383cbb3503"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=44b9559787adb010009399383cbb3503^sys_idNOT INb37cf8a52f873010c652de1a2799b6a1"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_type_id>
@@ -373,6 +387,9 @@ function doIt(listings) {
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b37cf8a52f873010c652de1a2799b6a1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_44b9559787adb010009399383cbb3503"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_44b9559787adb010009399383cbb3503"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503^sys_idNOT IN637cf8a52f873010c652de1a2799b679,fb7cf8a52f873010c652de1a2799b69b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -387,11 +404,11 @@ function doIt(listings) {
         <sys_created_on>2021-10-06 22:55:29</sys_created_on>
         <sys_id>637cf8a52f873010c652de1a2799b679</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503___action_status___en</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
         <url/>
@@ -410,16 +427,17 @@ function doIt(listings) {
         <sys_created_on>2021-10-06 22:55:29</sys_created_on>
         <sys_id>fb7cf8a52f873010c652de1a2799b69b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:29</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_44b9559787adb010009399383cbb3503"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=44b9559787adb010009399383cbb3503^sys_idNOT IN82c915d787adb010009399383cbb35d0"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_id>
@@ -630,6 +648,11 @@ function doIt(listings) {
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=79c915d787adb010009399383cbb35a2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_79c915d787adb010009399383cbb35a2"/>
+    <sys_hub_action_input action="delete_multiple" query="model=31c915d787adb010009399383cbb3586"/>
     <sys_hub_action_output action="delete_multiple" query="model=31c915d787adb010009399383cbb3586^sys_idNOT IN488cf8a52f873010c652de1a2799b6ce,808cf8a52f873010c652de1a2799b6d5"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -663,6 +686,7 @@ function doIt(listings) {
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -710,10 +734,13 @@ function doIt(listings) {
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=488cf8a52f873010c652de1a2799b6ce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=488cf8a52f873010c652de1a2799b6ce"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -746,6 +773,7 @@ function doIt(listings) {
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -793,10 +821,14 @@ function doIt(listings) {
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=808cf8a52f873010c652de1a2799b6d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=808cf8a52f873010c652de1a2799b6d5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=31c915d787adb010009399383cbb3586"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=31c915d787adb010009399383cbb3586^sys_idNOT INc08cf8a52f873010c652de1a2799b6e2"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action_type_id>
@@ -807,6 +839,9 @@ function doIt(listings) {
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:31</sys_updated_on>
     </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c08cf8a52f873010c652de1a2799b6e2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_31c915d787adb010009399383cbb3586"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_31c915d787adb010009399383cbb3586"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586^sys_idNOT IN0c8cf8a52f873010c652de1a2799b6d3,408cf8a52f873010c652de1a2799b6dd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -821,11 +856,11 @@ function doIt(listings) {
         <sys_created_on>2021-10-06 22:55:30</sys_created_on>
         <sys_id>0c8cf8a52f873010c652de1a2799b6d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586___action_status___en</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
         <url/>
@@ -844,18 +879,20 @@ function doIt(listings) {
         <sys_created_on>2021-10-06 22:55:30</sys_created_on>
         <sys_id>408cf8a52f873010c652de1a2799b6dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
         <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_type_definition action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_31c915d787adb010009399383cbb3586"/>
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>44b9559787adb010009399383cbb3503</sys_id>
         <latest_snapshot>31c915d787adb010009399383cbb3586</latest_snapshot>
+        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

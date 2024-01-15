@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Expense" max_length="40" name="x_476139_ebay_expense" type="collection">
+    <element db_object_id="c410623c87628110009399383cbb35dd" label="Expense" max_length="40" name="x_476139_ebay_expense" type="collection">
         <element label="Category" max_length="40" name="category" type="string"/>
         <element default="gs.now()" label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Description" max_length="100" name="description" type="string"/>

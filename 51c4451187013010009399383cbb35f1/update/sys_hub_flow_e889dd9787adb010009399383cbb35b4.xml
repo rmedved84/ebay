@@ -6,17 +6,16 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>sync_new_listings</internal_name>
         <label_cache>[]</label_cache>
-        <latest_snapshot>1493416b8729f010009399383cbb3547</latest_snapshot>
         <master_snapshot>88e995d787adb010009399383cbb35d1</master_snapshot>
         <name>Sync New Listings</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>cce9d5d787adb010009399383cbb3531</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -99,6 +98,7 @@
         <trigger display_value="">cce9d5d787adb010009399383cbb3531</trigger>
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e889dd9787adb010009399383cbb35b4"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=e889dd9787adb010009399383cbb35b4^sys_idNOT INaed995d787adb010009399383cbb3544"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -133,6 +133,8 @@
         <value>1970-01-01 08:00:00</value>
         <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=aed995d787adb010009399383cbb3544"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e889dd9787adb010009399383cbb35b4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e889dd9787adb010009399383cbb35b4^sys_idNOT INac89dd9787adb010009399383cbb35b6"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>e889dd9787adb010009399383cbb35b4</id>
@@ -145,13 +147,16 @@
         <sys_updated_by>rmedved</sys_updated_by>
         <sys_updated_on>2021-07-29 21:57:25</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ac89dd9787adb010009399383cbb35b6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e889dd9787adb010009399383cbb35b4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e889dd9787adb010009399383cbb35b4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e889dd9787adb010009399383cbb35b4"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=e889dd9787adb010009399383cbb35b4^sys_idNOT IN66d995d787adb010009399383cbb354a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>31c915d787adb010009399383cbb3586</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync New Listings">e889dd9787adb010009399383cbb35b4</flow>
         <order>1</order>
@@ -160,19 +165,29 @@
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-07-29 21:58:55</sys_created_on>
         <sys_id>66d995d787adb010009399383cbb354a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-07-30 15:00:03</sys_updated_on>
+        <sys_updated_on>2023-10-21 15:00:02</sys_updated_on>
         <ui_id>8b8abe08-f466-4e2c-997c-468a39a77f17</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66d995d787adb010009399383cbb354a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=66d995d787adb010009399383cbb354a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=66d995d787adb010009399383cbb354a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e889dd9787adb010009399383cbb35b4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e889dd9787adb010009399383cbb35b4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e889dd9787adb010009399383cbb35b4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e889dd9787adb010009399383cbb35b4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e889dd9787adb010009399383cbb35b4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e889dd9787adb010009399383cbb35b4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e889dd9787adb010009399383cbb35b4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e889dd9787adb010009399383cbb35b4"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e889dd9787adb010009399383cbb35b4^sys_idNOT IN54e9d5d787adb010009399383cbb3534"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"54e9d5d787adb010009399383cbb3534","name":"plan"}}</plan>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"54e9d5d787adb010009399383cbb3534","name":"plan","plan_signature":null}}</plan>
         <plan_id>e889dd9787adb010009399383cbb35b4</plan_id>
-        <snapshot>1493416b8729f010009399383cbb3547</snapshot>
+        <snapshot>3a187709978e311028beb8d0f053afbe</snapshot>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-07-29 21:59:02</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -185,6 +200,7 @@
         <sys_updated_on>2021-07-29 21:59:02</sys_updated_on>
         <trigger display_value="">cce9d5d787adb010009399383cbb3531</trigger>
     </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e889dd9787adb010009399383cbb35b4"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -260,6 +276,8 @@
         <value>1970-01-01 08:00:00</value>
         <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=c8e995d787adb010009399383cbb35d9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=88e995d787adb010009399383cbb35d1"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=88e995d787adb010009399383cbb35d1^sys_idNOT IN48e995d787adb010009399383cbb35d2"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>88e995d787adb010009399383cbb35d1</id>
@@ -272,13 +290,16 @@
         <sys_updated_by>rmedved</sys_updated_by>
         <sys_updated_on>2021-07-29 21:59:01</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=48e995d787adb010009399383cbb35d2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=88e995d787adb010009399383cbb35d1"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=88e995d787adb010009399383cbb35d1^sys_idNOT INc0e995d787adb010009399383cbb35d9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Sync New Listings">31c915d787adb010009399383cbb3586</action_type>
         <action_type_parent display_value="Sync New Listings">44b9559787adb010009399383cbb3503</action_type_parent>
         <comment/>
-        <compiled_snapshot>31c915d787adb010009399383cbb3586</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync New Listings">88e995d787adb010009399383cbb35d1</flow>
         <order>1</order>
@@ -294,4 +315,19 @@
         <ui_id>8b8abe08-f466-4e2c-997c-468a39a77f17</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c0e995d787adb010009399383cbb35d9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c0e995d787adb010009399383cbb35d9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c0e995d787adb010009399383cbb35d9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=88e995d787adb010009399383cbb35d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_88e995d787adb010009399383cbb35d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_88e995d787adb010009399383cbb35d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_88e995d787adb010009399383cbb35d1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_88e995d787adb010009399383cbb35d1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e889dd9787adb010009399383cbb35b4</sys_id>
+        <latest_snapshot>88e995d787adb010009399383cbb35d1</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
+    </sys_hub_flow>
 </record_update>
