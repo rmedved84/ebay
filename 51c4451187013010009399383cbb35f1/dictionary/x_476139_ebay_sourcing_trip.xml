@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad361274973b31105286f91de053afd2" label="Sourcing Trip" max_length="40" name="x_476139_ebay_sourcing_trip" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var avg = current.amount / current.number_of_items;&#13;&#10;&#9;return avg.toFixed(2);&#13;&#10;&#13;&#10;})(current);" label="Average COG" max_length="20" name="average_cog" type="currency" virtual="true"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Location" max_length="100" name="location" type="string"/>
+        <element label="Number Of Items" max_length="40" name="number_of_items" type="integer"/>
+    </element>
+</database>

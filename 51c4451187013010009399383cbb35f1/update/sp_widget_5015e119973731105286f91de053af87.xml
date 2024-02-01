@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Annual Average COG</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  var cogGR = new GlideRecord('x_476139_ebay_sourcing_trip');
+  cogGR.addEncodedQuery('dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()');
+  cogGR.query();
+  var totalAmount = 0;
+  var totalItems = 0;
+
+  while(cogGR.next()){
+	var amount = parseFloat(cogGR.getValue('amount'));
+	var items = parseInt(cogGR.getValue('number_of_items'), 10);
+	totalAmount += amount;
+	totalItems += items;
+  }
+  console.log('total amount: ' + totalAmount);
+  console.log('total Items: ' + totalItems);
+
+  var average = (totalAmount / totalItems).toFixed(2);
+  data.average = average;
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 22:51:47</sys_created_on>
+        <sys_id>5015e119973731105286f91de053af87</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Annual Average COG</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_widget_5015e119973731105286f91de053af87</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 23:02:08</sys_updated_on>
+        <template><![CDATA[<a href="https://dev222039.service-now.com/x_476139_ebay_sourcing_trip_list.do?sysparm_query=&sysparm_view=">
+<h1>
+2024 Average COG: ${{data.average}}
+</h1>
+</a>]]></template>
+    </sp_widget>
+</record_update>

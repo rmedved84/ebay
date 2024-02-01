@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>envelope-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>View all items that are ready to ship</short_description>
+        <size>md</size>
+        <sp_column display_value="2">e080111597f331105286f91de053af61</sp_column>
+        <sp_page display_value="ebay_home">6513b4868788e510009399383cbb3599</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 21:16:08</sys_created_on>
+        <sys_id>e480111597f331105286f91de053af63</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Items Ready To Ship</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_instance_link_e480111597f331105286f91de053af63</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 22:59:10</sys_updated_on>
+        <title>Items Ready To Ship</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=e480111597f331105286f91de053af63"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ebay">51c4451187013010009399383cbb35f1</application>
+        <file_path/>
+        <instance_id>b56c147f1b2af5946a85eb9b2d4bcb46</instance_id>
+        <instance_name>dev222039</instance_name>
+        <name>sp_instance_link_e480111597f331105286f91de053af63</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;envelope-o&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;View all items that are ready to ship&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;e080111597f331105286f91de053af61&lt;/sp_column&gt;&lt;sp_page display_value="ebay_home"&gt;6513b4868788e510009399383cbb3599&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;rmedved84@gmail.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-16 21:16:08&lt;/sys_created_on&gt;&lt;sys_id&gt;e480111597f331105286f91de053af63&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Items Ready To Ship&lt;/sys_name&gt;&lt;sys_package display_value="Ebay" source="x_476139_ebay"&gt;51c4451187013010009399383cbb35f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Ebay"&gt;51c4451187013010009399383cbb35f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_e480111597f331105286f91de053af63&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rmedved84@gmail.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-16 22:59:10&lt;/sys_updated_on&gt;&lt;title&gt;Items Ready To Ship&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e480111597f331105286f91de053af63"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1326599414</payload_hash>
+        <record_name>Items Ready To Ship</record_name>
+        <reverted_from/>
+        <source>d23fca3c97f731105286f91de053af53</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 22:59:10</sys_created_on>
+        <sys_id>861825d9973731105286f91de053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d148005740000001</sys_recorded_at>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 22:59:10</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>4e1825d9c53731102f9d0f1d29a81d26</update_guid>
+        <update_guid_history>4e1825d9c53731102f9d0f1d29a81d26:1326599414,c61825d94a373110006c82d8b85d1921:2116339972,d67465d5db3731105ba000d8142d3ec1:1326599414,d22ad95db8f331109b15351bb9973cbd:1689192662,f6e9195db0f33110128b8a258db3b7fe:-410782195,cb919d159ff33110615aa13aba5ede09:48308654,ec801115e0f33110ce2e602b16f5d989:1777620504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Items Ready To Ship">b718e1d9973731105286f91de053af20</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 22:59:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>334274f40dd1449a9507c9d11c6646e9</sys_id>
+        <sys_metadata>e480111597f331105286f91de053af63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Items Ready To Ship</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_scope_delete display_value="">477a4948cc8c4dbc9e0f9f843457d010</sys_scope_delete>
+        <sys_update_name>sp_instance_link_e480111597f331105286f91de053af63</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_e480111597f331105286f91de053af63">861825d9973731105286f91de053af27</sys_update_version>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 22:59:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

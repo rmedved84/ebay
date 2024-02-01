@@ -23,11 +23,11 @@
         <element label="Legacy Listing ID" max_length="100" name="legacy_listing_id" type="string"/>
         <element label="Measurement Details" max_length="4000" name="measurement_details" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Custom SKU" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Custom SKU" max_length="40" name="number" read_only="true" type="string" unique="true"/>
         <element label="Order ID" max_length="100" name="order_id" type="string"/>
         <element label="Ounces" max_length="40" name="ounces" type="string"/>
         <element label="Pounds" max_length="40" name="pounds" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var sellingPrice = current.selling_price;&#13;&#10;&#9;var shipping = current.shipping;&#13;&#10;&#9;var fees = current.fees;&#13;&#10;&#9;var purchasePrice = current.purchase_price;&#13;&#10;&#9;var profit = sellingPrice - shipping - fees - purchasePrice;&#13;&#10;&#9;return profit;  &#13;&#10;&#13;&#10;})(current);" label="Profit" max_length="20" name="profit" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var sellingPrice = current.selling_price;&#10;&#9;var shipping = current.shipping;&#10;&#9;var fees = current.fees;&#10;&#9;var purchasePrice = current.purchase_price;&#10;&#9;var profit = sellingPrice - shipping - fees - purchasePrice;&#10;&#9;return profit;  &#10;&#10;})(current);" label="Profit" max_length="20" name="profit" type="currency"/>
         <element label="Promoted Listing Fee" max_length="20" name="promoted_listing_fee" type="currency"/>
         <element label="Purchase Date" max_length="40" name="purchase_date" type="glide_date"/>
         <element choice="1" label="Purchase Location" max_length="40" name="purchase_location" type="choice">
@@ -59,6 +59,7 @@
                 <element inactive_on_update="false" label="USPS Priority Mail" sequence="80" value="USPS Priority Mail"/>
             </choice>
         </element>
+        <element label="Sourcing Trip" max_length="32" name="sourcing_trip" reference="x_476139_ebay_sourcing_trip" type="reference"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Awaiting Shipment" value="awaiting_shipment"/>
@@ -82,6 +83,12 @@
         </index>
         <index name="index2">
             <element name="dropbox_folder"/>
+        </index>
+        <index name="index3" unique="true">
+            <element name="number"/>
+        </index>
+        <index name="index4">
+            <element name="sourcing_trip"/>
         </index>
     </element>
 </database>

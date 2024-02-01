@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Run With Debugger</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[function runFixScript() {
+    var modalTitle = 'Run Fix Script';
+    var msgMap = new GwtMessage().getMessages([modalTitle, 'Fix script {0} not found']);
+
+	var sysId = typeof rowSysId == 'undefined' ? gel('sys_uniqueValue').value : rowSysId;
+	var gr = new GlideRecord('sys_script_fix');
+	gr.addQuery("sys_id", sysId);
+	gr.query();
+	if (gr.next()) {
+          var dialog = new GlideModal("run_fix_script_modal", true, 400);
+          dialog.setTitle(msgMap[modalTitle]);
+          dialog.setPreference("sysparm_sys_id", gr.sys_id);
+          dialog.setPreference("sysparm_script_name", gr.name);
+          dialog.setPreference("focusTrap", true);
+          dialog.render();
+	} else
+		alert(new GwtMessage().format(msgMap['Fix script {0} not found'], sysId));
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-15 12:37:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ef2096bc97f731105286f91de053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run With Debugger</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_ui_action_ef2096bc97f731105286f91de053af3f</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:37:37</sys_updated_on>
+        <table/>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

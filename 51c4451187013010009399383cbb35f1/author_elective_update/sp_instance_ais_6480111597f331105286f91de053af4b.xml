@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="1">a480111597f331105286f91de053af48</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 21:16:08</sys_created_on>
+        <sys_id>6480111597f331105286f91de053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_instance_ais_6480111597f331105286f91de053af4b</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 21:16:08</sys_updated_on>
+        <title>How can we help?</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=6480111597f331105286f91de053af4b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ebay">51c4451187013010009399383cbb35f1</application>
+        <file_path/>
+        <instance_id>b56c147f1b2af5946a85eb9b2d4bcb46</instance_id>
+        <instance_name>dev222039</instance_name>
+        <name>sp_instance_ais_6480111597f331105286f91de053af4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>0</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>lg</size><sp_column display_value="1">a480111597f331105286f91de053af48</sp_column><sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>rmedved84@gmail.com</sys_created_by><sys_created_on>2024-01-16 21:16:08</sys_created_on><sys_id>6480111597f331105286f91de053af4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>How can we help?</sys_name><sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package><sys_policy/><sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope><sys_update_name>sp_instance_ais_6480111597f331105286f91de053af4b</sys_update_name><sys_updated_by>rmedved84@gmail.com</sys_updated_by><sys_updated_on>2024-01-16 21:16:08</sys_updated_on><title>How can we help?</title><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=6480111597f331105286f91de053af4b"/></record_update>]]></payload>
+        <payload_hash>1672013114</payload_hash>
+        <record_name>How can we help?</record_name>
+        <reverted_from/>
+        <source>d23fca3c97f731105286f91de053af53</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 21:16:08</sys_created_on>
+        <sys_id>a080111597f331105286f91de053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d1421af620000001</sys_recorded_at>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 21:16:08</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>e4801115b7f33110cd019fccf37b114d</update_guid>
+        <update_guid_history>e4801115b7f33110cd019fccf37b114d:1672013114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="How can we help?">36e9551d97f331105286f91de053afef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-16 21:57:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>3d61b975116c4480ad850a649dd06400</sys_id>
+        <sys_metadata>6480111597f331105286f91de053af4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_scope_delete display_value="">477a4948cc8c4dbc9e0f9f843457d010</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_6480111597f331105286f91de053af4b</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_6480111597f331105286f91de053af4b">a080111597f331105286f91de053af4e</sys_update_version>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-16 21:57:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

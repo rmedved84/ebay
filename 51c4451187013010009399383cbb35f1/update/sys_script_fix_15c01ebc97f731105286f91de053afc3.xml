@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Ebay Test</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[ var params = {
+        "filter": "orderfulfillmentstatus:%7BNOT_STARTED%7CIN_PROGRESS%7D"
+    };
+    var orders = EbayUtil.getOrders(params);
+    gs.info(JSON.stringify(orders));]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-01-15 12:40:12</sys_created_on>
+        <sys_id>15c01ebc97f731105286f91de053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebay Test</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_script_fix_15c01ebc97f731105286f91de053afc3</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:40:12</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
