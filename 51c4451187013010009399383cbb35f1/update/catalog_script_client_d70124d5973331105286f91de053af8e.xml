@@ -17,6 +17,7 @@
         <messages/>
         <name>Calculate Avg COG</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '' || g_form.getValue('amount') == '') {
         return;
@@ -44,6 +45,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

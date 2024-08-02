@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>sync_shipping_fees</internal_name>
         <label_cache>[]</label_cache>
@@ -153,6 +156,29 @@
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_033c3b2487235110009399383cbb35e5"/>
     <sys_hub_action_input action="delete_multiple" query="model=904b332087235110009399383cbb35fb"/>
     <sys_hub_action_output action="delete_multiple" query="model=904b332087235110009399383cbb35fb^sys_idNOT INa66c3f2487235110009399383cbb35b3,ea6c3f2487235110009399383cbb35bb"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD226c3f24ee235110e82b6533e12d69b0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD226c3f24ee235110e82b6533e12d69b0":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD226c3f24ee235110e82b6533e12d69b0.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"60c2f5e4-29f0-446d-afca-0d0c506378b6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD226c3f24ee235110e82b6533e12d69b0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:13:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e26c3f2487235110009399383cbb35b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD226c3f24ee235110e82b6533e12d69b0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_e26c3f2487235110009399383cbb35b0</sys_update_name>
+        <sys_updated_by>rmedved</sys_updated_by>
+        <sys_updated_on>2022-12-01 21:25:31</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -411,11 +437,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>sync_shipping_fees</internal_name>
         <label_cache>[]</label_cache>
         <master>true</master>
@@ -643,6 +672,29 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=366c7f2487235110009399383cbb3509"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=366c7f2487235110009399383cbb3509"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDfe6c7f2427235110ebea7ae20032de01</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FDfe6c7f2427235110ebea7ae20032de01":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDfe6c7f2427235110ebea7ae20032de01.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"60c2f5e4-29f0-446d-afca-0d0c506378b6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDfe6c7f2427235110ebea7ae20032de01\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved</sys_created_by>
+        <sys_created_on>2022-11-30 23:13:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b26c7f2487235110009399383cbb3502</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDfe6c7f2427235110ebea7ae20032de01</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_b26c7f2487235110009399383cbb3502</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-01-20 00:27:25</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>

@@ -5,7 +5,7 @@
         <interleave>true</interleave>
         <name>Vulture Items</name>
         <placeholder/>
-        <search_context_config display_value="Vulture Search">62aafe8d87bd3010009399383cbb3518</search_context_config>
+        <search_context_config display_value="">62aafe8d87bd3010009399383cbb3518</search_context_config>
         <sys_class_name>sys_sg_global_search</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-08-04 15:32:10</sys_created_on>

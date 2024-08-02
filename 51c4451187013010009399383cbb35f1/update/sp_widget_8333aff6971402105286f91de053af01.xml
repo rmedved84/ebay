@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, spModal) {
+    /* widget controller */
+    var c = this;
+    $scope.syncTodaysListings = function() {
+        spModal.alert('Did you really click this without asking me about it first?').then(function(answer) {
+            console.log(answer)
+        });
+    };
+
+    $scope.assignBinToNewListings = function() {
+        spModal.alert('You clicked this one too?').then(function(answer) {
+            console.log(answer)
+        });
+    };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+}]]></link>
+        <name>Sync Today's Listings</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    if (input && input.syncListings) {
+        var today = new GlideDate();
+        var endTime = today.getDisplayValue() + 'T00:00:00.000Z';
+        today.addDaysLocalTime(-1);
+        var startTime = today.getDisplayValue() + 'T00:00:00.000Z';
+        var totalPages = 1; //parseInt(listings.GetSellerListResponse.PaginationResult.TotalNumberOfPages);
+        var currentPage = 1;
+
+        do {
+            var listings = EbayUtil.getListings(startTime, endTime, currentPage);
+            createOrUpdateListings(listings);
+            currentPage++;
+        } while (currentPage <= totalPages);
+
+        // for (var i = 2; i < totalPages + 1; i++) {
+        //     listings = EbayUtil.getListings(startTime, endTime, i);
+        //     doIt(listings)
+        // }
+
+
+    }
+
+    function createOrUpdateListings(listings) {
+        listings = listings.GetSellerListResponse.ItemArray.Item;
+        for (var j = 0; j < listings.length; j++) {
+            var itemGR = new GlideRecord('x_476139_ebay_item');
+            if (listings[j].SKU && listings[j].SKU.toLowerCase().indexOf('inv') == -1) {
+                itemGR.addNullQuery('legacy_listing_id');
+                itemGR.addQuery('number', listings[j].SKU);
+                itemGR.query();
+                if (itemGR.next()) {
+                    itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+                    itemGR.setValue('name', listings[j].Title);
+                    itemGR.update();
+                }
+            } else {
+                itemGR.initialize();
+                itemGR.setValue('legacy_listing_id', listings[j].ItemID);
+                itemGR.setValue('name', listings[j].Title);
+                var itemID = itemGR.insert();
+            }
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2024-02-15 20:22:43</sys_created_on>
+        <sys_id>8333aff6971402105286f91de053af01</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Sync Today's Listings</sys_name>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sp_widget_8333aff6971402105286f91de053af01</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-02-15 23:31:32</sys_updated_on>
+        <template><![CDATA[<div>
+  <button type="button" class="btn btn-primary" ng-click="syncTodaysListings()"> Sync Today's Listings</button>
+  <button type="button" class="btn btn-primary" ng-click="assignBinToNewListings()"> Assign Bin To New Listings</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

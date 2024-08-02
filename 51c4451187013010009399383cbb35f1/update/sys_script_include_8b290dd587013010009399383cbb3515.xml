@@ -6,6 +6,7 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Methods for Ebay</description>
+        <mobile_callable>false</mobile_callable>
         <name>EbayUtil</name>
         <script><![CDATA[var EbayUtil = (function(){	
 	
@@ -19,7 +20,7 @@
 		if(params){
 			endpoint += '?';
 			for(var param in params){
-				endpoint += param + '=' + params[param] + '&';
+				endpoint += param + '=' + params[param];// + '&';
 			}
 		}
 		var responseBody = _callEbay(endpoint, 'GET');
@@ -39,6 +40,30 @@
 		var responseBody = _callEbay(endpoint, 'GET');
 		responseBody = JSON.parse(responseBody);
 		return responseBody;
+	}
+	
+	function reviseItem(itemID, sku){
+		var body = '<?xml version="1.0" encoding="utf-8"?>' +
+			'<ReviseItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">'+
+			'<RequesterCredentials>'+
+			'<eBayAuthToken>' + accessToken + '</eBayAuthToken>'+
+			'</RequesterCredentials>'+ 
+			'<Item>' +
+			'<SKU>' + sku + '</SKU>' + 
+			'<ItemID>' + itemID + '</ItemID>' +
+			'</Item>' +
+			'</ReviseItemRequest>';
+		
+			var headers = {
+			"X-EBAY-API-CALL-NAME": "ReviseItem",
+			"X-EBAY-API-COMPATIBILITY-LEVEL": 1149,
+			"X-EBAY-API-SITEID": 0,
+			"Content-Type": "text/xml"
+			};
+				
+			var answer = EbayUtil._callEbay('ws/api.dll/reviseItem', 'POST', body, false, headers);
+			answer = gs.xmlToJSON(answer);
+			return answer;
 	}
 	
 	function getListings(startTime, endTime, pageNumber){
@@ -206,7 +231,8 @@
 		'getOrders': getOrders,
 		'hasAllRequiredFields': hasAllRequiredFields,
 		'attachPDF': attachPDF,
-		'getFees': getFees
+		'getFees': getFees,
+		'reviseItem': reviseItem
 	};
 	
 })();]]></script>
@@ -214,13 +240,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 19:10:07</sys_created_on>
         <sys_id>8b290dd587013010009399383cbb3515</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>EbayUtil</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_script_include_8b290dd587013010009399383cbb3515</sys_update_name>
-        <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2022-12-01 21:22:35</sys_updated_on>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2024-07-07 02:56:31</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
     <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
         <click_in_mode>true</click_in_mode>
-        <context_config_id display_value="Vulture Search">62aafe8d87bd3010009399383cbb3518</context_config_id>
+        <context_config_id display_value="">62aafe8d87bd3010009399383cbb3518</context_config_id>
         <limit>5</limit>
         <order>200</order>
         <section_header>Popular Searches</section_header>

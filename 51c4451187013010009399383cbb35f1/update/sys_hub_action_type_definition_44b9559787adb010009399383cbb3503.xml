@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>sync_new_listings</internal_name>
         <label_cache>[]</label_cache>
@@ -33,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_44b9559787adb010009399383cbb3503</sys_update_name>
-        <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-10-07 15:07:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:18:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -196,6 +199,7 @@ function doIt(listings) {
         <variable display_value="MID Selection">cbd1070373531010791f94596bf6a776</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=20c911d787adb010009399383cbb35e0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=20c911d787adb010009399383cbb35e0"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=20c911d787adb010009399383cbb35e0"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=20c911d787adb010009399383cbb35e0"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=20c911d787adb010009399383cbb35e0"/>
@@ -289,6 +293,29 @@ function doIt(listings) {
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b7cf8a52f873010c652de1a2799b67a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2b7cf8a52f873010c652de1a2799b67a"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2b7cf8a5458730108462677b1299fd6f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD2b7cf8a5458730108462677b1299fd6f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD2b7cf8a5458730108462677b1299fd6f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0bf91915-2a84-43c8-a495-9e8ce0462990\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2b7cf8a5458730108462677b1299fd6f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"-1\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb7cf8a52f873010c652de1a2799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD2b7cf8a5458730108462677b1299fd6f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_eb7cf8a52f873010c652de1a2799b66f</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:28</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -460,11 +487,14 @@ function doIt(listings) {
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>sync_new_listings</internal_name>
         <label_cache>[]</label_cache>
         <master>true</master>
@@ -648,12 +678,36 @@ function doIt(listings) {
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=79c915d787adb010009399383cbb35a2"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=79c915d787adb010009399383cbb35a2"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=79c915d787adb010009399383cbb35a2"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=79c915d787adb010009399383cbb35a2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=79c915d787adb010009399383cbb35a2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_79c915d787adb010009399383cbb35a2"/>
     <sys_hub_action_input action="delete_multiple" query="model=31c915d787adb010009399383cbb3586"/>
     <sys_hub_action_output action="delete_multiple" query="model=31c915d787adb010009399383cbb3586^sys_idNOT IN488cf8a52f873010c652de1a2799b6ce,808cf8a52f873010c652de1a2799b6d5"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD848cf8a5918730107ff92c42c8a021cc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD848cf8a5918730107ff92c42c8a021cc":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD848cf8a5918730107ff92c42c8a021cc.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"0bf91915-2a84-43c8-a495-9e8ce0462990\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD848cf8a5918730107ff92c42c8a021cc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:55:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>488cf8a52f873010c652de1a2799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD848cf8a5918730107ff92c42c8a021cc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_488cf8a52f873010c652de1a2799b6cc</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:55:30</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -893,6 +947,6 @@ function doIt(listings) {
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>44b9559787adb010009399383cbb3503</sys_id>
         <latest_snapshot>31c915d787adb010009399383cbb3586</latest_snapshot>
-        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

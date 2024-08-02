@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>bin_number</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>fees</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>inventory_number</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>legacy_listing_id</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>profit</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>purchase_date</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>purchase_location</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,7 +138,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sale_date</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -153,7 +153,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>batch</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>10</position>
@@ -168,7 +168,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>box_dimensions</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>11</position>
@@ -183,7 +183,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_on</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>12</position>
@@ -198,7 +198,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_created_by</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>13</position>
@@ -213,7 +213,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>custom_box_dimension</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>14</position>
@@ -228,7 +228,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>dropbox_folder</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>15</position>
@@ -243,7 +243,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>details</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>16</position>
@@ -258,7 +258,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>measurement_details</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>17</position>
@@ -273,7 +273,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ounces</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>18</position>
@@ -288,7 +288,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pounds</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>19</position>
@@ -303,7 +303,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>purchase_price</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>20</position>
@@ -318,7 +318,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>secondary_shipping_option</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>21</position>
@@ -333,7 +333,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>selling_price</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>22</position>
@@ -348,7 +348,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sent_to_dropbox</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>23</position>
@@ -363,7 +363,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>shipping</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>24</position>
@@ -378,7 +378,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>shipping_method</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>25</position>
@@ -393,7 +393,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>storage_location</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>26</position>
@@ -408,7 +408,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_tags</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>27</position>
@@ -423,7 +423,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>28</position>
@@ -438,7 +438,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_by</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>29</position>
@@ -453,7 +453,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_mod_count</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>30</position>
@@ -468,7 +468,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>weight</element>
-            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="e8f82982879d3010009399383cbb35cf">b77aa0292f473010c652de1a2799b6a5</list_id>
+            <list_id display_value="x_476139_ebay_item" element="NULL" name="x_476139_ebay_item" parent="NULL" relationship="NULL" sys_domain="global" view="aa4adcd2c3d130108d7c52569740dd23">b77aa0292f473010c652de1a2799b6a5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>31</position>
@@ -505,7 +505,7 @@
             <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
             <sys_updated_on>2021-10-06 21:36:51</sys_updated_on>
             <sys_user/>
-            <view display_value="Export" name="export">e8f82982879d3010009399383cbb35cf</view>
+            <view display_value="Export" name="export">aa4adcd2c3d130108d7c52569740dd23</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

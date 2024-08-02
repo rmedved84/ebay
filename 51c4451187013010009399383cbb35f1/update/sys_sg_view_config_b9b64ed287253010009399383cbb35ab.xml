@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
     <sys_sg_view_config action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced>false</advanced>
         <description/>
         <name>Vulture Items View Config</name>
+        <scratchpad_script/>
         <sys_class_name>sys_sg_view_config</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>
         <sys_created_on>2021-07-26 22:41:00</sys_created_on>

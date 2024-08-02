@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c410623c87628110009399383cbb35dd" label="Expense" max_length="40" name="x_476139_ebay_expense" type="collection">
-        <element label="Category" max_length="40" name="category" type="string"/>
-        <element default="gs.now()" label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="Vendor" max_length="40" name="vendor" type="string"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
         <element label="item" max_length="100" name="item" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="cedar_river_vintage" label="Company" max_length="40" name="company" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cedar River Vintage" sequence="0" value="cedar_river_vintage"/>
+                <element inactive_on_update="false" label="MedvedNow Consulting" sequence="10" value="medvednow_consulting"/>
+            </choice>
+        </element>
+        <element default="gs.now()" label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Price" max_length="20" name="price" type="currency"/>
-        <element label="Vendor" max_length="40" name="vendor" type="string"/>
     </element>
 </database>

@@ -7,14 +7,17 @@
         <auth_url/>
         <certificate_url/>
         <client_id>JenMedve-Vulture-PRD-f55154608-8cf433c6</client_id>
-        <client_secret>t2usv+Hc+nmMz5LbHxW61smitdXAkX5ykVSD+gvWvHnYWp18LUyAUQ==</client_secret>
+        <client_secret>﷞﷟﷒fe87cab897b731105286f91de053af86﷬﷔1﷬﷭4taSb4EryPJsRSo6nnGaaQ==5vkaLArgUfhh3J3it_YGgWNLzDFWPkdD0Uko4qVSXSvU3r6b56A6MXAVw0eOWfVATZc2cQ==﷮﷯</client_secret>
         <client_uuid>54a9fe2d87870110009399383cbb3519</client_uuid>
         <code_challenge_method>S256</code_challenge_method>
         <comments/>
         <default_grant_type>authorization_code</default_grant_type>
         <id_token_lifespan>0</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
         <logo_url/>
         <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
         <name>Ebay</name>
         <oauth_api_script display_value="OAuthUtil">3e3a3a11c333210016194ffe5bba8f70</oauth_api_script>
         <protocol_name/>

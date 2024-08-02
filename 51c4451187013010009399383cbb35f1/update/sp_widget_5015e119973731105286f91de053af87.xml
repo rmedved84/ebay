@@ -23,25 +23,67 @@
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
-  var cogGR = new GlideRecord('x_476139_ebay_sourcing_trip');
-  cogGR.addEncodedQuery('dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()');
-  cogGR.query();
-  var totalAmount = 0;
-  var totalItems = 0;
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    var cogGR = new GlideRecord('x_476139_ebay_sourcing_trip');
+    cogGR.addEncodedQuery('dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()');
+    cogGR.query();
+    var totalAmount = 0;
+    var totalItems = 0;
 
-  while(cogGR.next()){
-	var amount = parseFloat(cogGR.getValue('amount'));
-	var items = parseInt(cogGR.getValue('number_of_items'), 10);
-	totalAmount += amount;
-	totalItems += items;
-  }
-  console.log('total amount: ' + totalAmount);
-  console.log('total Items: ' + totalItems);
+    while (cogGR.next()) {
+        var amount = parseFloat(cogGR.getValue('amount'));
+        var items = parseInt(cogGR.getValue('number_of_items'), 10);
+        totalAmount += amount;
+        totalItems += items;
+    }
+    console.log('total amount: ' + totalAmount);
+    console.log('total Items: ' + totalItems);
 
-  var average = (totalAmount / totalItems).toFixed(2);
-  data.average = average;
+    var average = (totalAmount / totalItems).toFixed(2);
+    data.average = average;
+
+	var totalSales = 0;
+	var totalFees = 0;
+	var totalPromotedListingFees = 0;
+	var totalShippingFees = 0;
+    var itemGR = new GlideRecord('x_476139_ebay_item');
+    itemGR.addEncodedQuery('sale_dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()');
+	itemGR.query();
+	var soldItems = itemGR.getRowCount();
+	while(itemGR.next()){
+		var salePrice = parseFloat(itemGR.getValue('selling_price'), 10);
+		var fees = parseFloat(itemGR.getValue('fees'), 10);
+		var promotedListingFees = parseFloat(itemGR.getValue('promoted_listing_fee'), 10);
+		var shippingFees = parseFloat(itemGR.getValue('shipping'), 10);
+		totalSales += salePrice;
+		totalFees += fees;
+		totalPromotedListingFees += promotedListingFees;
+		totalShippingFees += shippingFees;
+	}
+	console.log('totalSales: ' + totalSales);
+	console.log('average: ' + parseFloat(average))
+	console.log('totalFees: ' + totalFees);
+	console.log('totalPromotedListingFees: ' + totalPromotedListingFees);
+	console.log('totalShippingFees: ' + totalShippingFees);
+	var totalExpenses = totalFees + totalPromotedListingFees + totalShippingFees + ((parseFloat(average)) * soldItems);
+	console.log('totalExpenses: ' + totalExpenses);
+	var totalProfit = parseFloat(totalSales - totalExpenses, 10);
+	data.totalProfit = totalProfit.toFixed(2);
+	//console.log('totalExpenses: ' + totalExpenses);
+	console.log('totalProfit: ' + totalProfit);
+	var averageProfit = (totalProfit / soldItems).toFixed(2);
+	console.log('soldItems: ' + soldItems);
+	data.averageProfit = averageProfit;
+
+	var expenseGR = new GlideRecord('x_476139_ebay_expense');
+	expenseGR.addEncodedQuery('company=cedar_river_vintage^dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()');
+	expenseGR.query();
+	var expenseTotal = 0;
+	while(expenseGR.next()){
+		expenseTotal += parseFloat(expenseGR.getValue('price'));
+	}
+	data.totalExpenses = expenseTotal.toFixed(2);
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -49,18 +91,29 @@
         <sys_created_by>rmedved84@gmail.com</sys_created_by>
         <sys_created_on>2024-01-16 22:51:47</sys_created_on>
         <sys_id>5015e119973731105286f91de053af87</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Annual Average COG</sys_name>
         <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sp_widget_5015e119973731105286f91de053af87</sys_update_name>
         <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
-        <sys_updated_on>2024-01-16 23:02:08</sys_updated_on>
+        <sys_updated_on>2024-07-26 16:42:12</sys_updated_on>
         <template><![CDATA[<a href="https://dev222039.service-now.com/x_476139_ebay_sourcing_trip_list.do?sysparm_query=&sysparm_view=">
 <h1>
 2024 Average COG: ${{data.average}}
 </h1>
-</a>]]></template>
+</a>
+<a>
+<h1> 2024 Average Profit: ${{data.averageProfit}}
+  </h1>
+</a>
+<a>
+  <h1> 2024 Total Net Profit: ${{data.totalProfit}}</h1>
+</a>
+<a href="https://dev222039.service-now.com/x_476139_ebay_expense_list.do?sysparm_query=company%3Dcedar_river_vintage%5EdateONThis%20year%40javascript%3Ags.beginningOfThisYear()%40javascript%3Ags.endOfThisYear()&sysparm_view=">
+  <h1> 2024 Total Expenses: ${{data.totalExpenses}}</h1>
+</a>
+  ]]></template>
     </sp_widget>
 </record_update>

@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>export_all_items</internal_name>
         <label_cache>[]</label_cache>
@@ -33,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_06c03c2d2f473010c652de1a2799b6e9</sys_update_name>
-        <sys_updated_by>rmedved</sys_updated_by>
-        <sys_updated_on>2021-10-07 15:07:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 12:18:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -201,12 +204,36 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=eaf0f82d2f473010c652de1a2799b69b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_eaf0f82d2f473010c652de1a2799b69b"/>
     <sys_hub_action_input action="delete_multiple" query="model=06c03c2d2f473010c652de1a2799b6e9"/>
     <sys_hub_action_output action="delete_multiple" query="model=06c03c2d2f473010c652de1a2799b6e9^sys_idNOT IN9049b4e12f873010c652de1a2799b690,d849b4e12f873010c652de1a2799b6bd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5849b4e1b48730108b9201fdfa859b8c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD5849b4e1b48730108b9201fdfa859b8c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5849b4e1b48730108b9201fdfa859b8c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:41:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c49b4e12f873010c652de1a2799b68c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD5849b4e1b48730108b9201fdfa859b8c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_1c49b4e12f873010c652de1a2799b68c</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:43:34</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -465,11 +492,14 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>export_all_items</internal_name>
         <label_cache>[]</label_cache>
         <master>true</master>
@@ -658,6 +688,7 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=11c9bce12f873010c652de1a2799b66a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=11c9bce12f873010c652de1a2799b66a"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=11c9bce12f873010c652de1a2799b66a"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=11c9bce12f873010c652de1a2799b66a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=11c9bce12f873010c652de1a2799b66a"/>
@@ -751,6 +782,29 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=25c9bce12f873010c652de1a2799b67b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=25c9bce12f873010c652de1a2799b67b"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD55c9bce19b873010d896faaee9789c72</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>51c4451187013010009399383cbb35f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD55c9bce19b873010d896faaee9789c72":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD55c9bce19b873010d896faaee9789c72.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88f4fe15-cb9f-4681-878e-9dd174d1f402\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD55c9bce19b873010d896faaee9789c72\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>rmedved84@gmail.com</sys_created_by>
+        <sys_created_on>2021-10-06 22:43:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19c9bce12f873010c652de1a2799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD55c9bce19b873010d896faaee9789c72</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ebay" source="x_476139_ebay">51c4451187013010009399383cbb35f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ebay">51c4451187013010009399383cbb35f1</sys_scope>
+        <sys_update_name>sys_complex_object_19c9bce12f873010c652de1a2799b672</sys_update_name>
+        <sys_updated_by>rmedved84@gmail.com</sys_updated_by>
+        <sys_updated_on>2021-10-06 22:43:35</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -903,6 +957,6 @@ request.setAuthenticationProfile(authenticationProfileType, authenticationProfil
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>06c03c2d2f473010c652de1a2799b6e9</sys_id>
         <latest_snapshot>99c9bce12f873010c652de1a2799b64d</latest_snapshot>
-        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

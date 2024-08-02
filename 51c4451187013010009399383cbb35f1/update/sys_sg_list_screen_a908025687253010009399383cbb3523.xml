@@ -10,6 +10,7 @@
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-List">a508025687253010009399383cbb3520</icon>
         <name>Vulture Items</name>
+        <parameter_screen/>
         <roles_override/>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>rmedved</sys_created_by>

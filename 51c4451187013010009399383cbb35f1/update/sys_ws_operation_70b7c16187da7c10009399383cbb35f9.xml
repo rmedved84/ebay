@@ -46,7 +46,10 @@
         <sys_update_name>sys_ws_operation_70b7c16187da7c10009399383cbb35f9</sys_update_name>
         <sys_updated_by>rmedved</sys_updated_by>
         <sys_updated_on>2021-08-31 16:14:49</sys_updated_on>
+        <u_tag/>
         <web_service_definition display_value="Marketplace">8b578d2187da7c10009399383cbb3516</web_service_definition>
         <web_service_version/>
+        <x_1303977_api_docs_request_body_schema/>
+        <x_1303977_api_docs_tags/>
     </sys_ws_operation>
 </record_update>
